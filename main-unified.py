@@ -124,6 +124,67 @@ class PLCAnalyzer:
                         continue
         return strings
 
+    def unified_decoder(self, raw_bytes):
+        decoded = []
+        size = len(raw_bytes)
+
+        i = 0
+        while i < size:
+            # BOOL
+            try:
+                if raw_bytes[i] != 0:
+                    decoded.append({"address": f"DB.DBX{i}", "type": "BOOL", "value": True})
+            except:
+                pass
+
+            # INT
+            if i + 1 < size:
+                try:
+                    val = get_int(raw_bytes, i)
+                    if val != 0:
+                        decoded.append({"address": f"DB.DBW{i}", "type": "INT", "value": val})
+                except:
+                    pass
+
+            # DINT
+            if i + 3 < size:
+                try:
+                    val = get_dint(raw_bytes, i)
+                    if val != 0:
+                        decoded.append({"address": f"DB.DBD{i}", "type": "DINT", "value": val})
+                except:
+                    pass
+
+            # REAL
+            if i + 3 < size:
+                try:
+                    val = get_real(raw_bytes, i)
+                    if abs(val) > 0.0001:
+                        decoded.append({"address": f"DB.DBD{i}", "type": "REAL", "value": round(val, 6)})
+                except:
+                    pass
+
+            # STRING
+            if i + 2 < size:
+                try:
+                    max_len = raw_bytes[i]
+                    actual_len = raw_bytes[i + 1]
+                    if actual_len > 0 and actual_len <= max_len and i + 2 + actual_len <= size:
+                        string_val = raw_bytes[i + 2:i + 2 + actual_len].decode("utf-8", errors="ignore")
+                        decoded.append({
+                            "address": f"DB.DBW{i}",
+                            "type": "STRING",
+                            "value": string_val,
+                            "max_length": max_len,
+                            "actual_length": actual_len
+                        })
+                except:
+                    pass
+
+            i += 1
+
+        return decoded
+
     def scan_and_decode_db(self, db_number, detailed=False):
         print(f"\n{'='*60}\nScanning DB{db_number}\n{'='*60}")
         raw_bytes = self.read_raw_db(db_number)
@@ -139,32 +200,18 @@ class PLCAnalyzer:
             print("💤 DB contains only zeros - skipping")
             return
 
-        # Auto-decoded types
-        print("\n--- Auto-detected Non-Zero Values ---")
-        auto_data = self.auto_detect_and_decode(raw_bytes)
-        for item in auto_data[:15]:
-            print(f"{item['address']:12s}: {item['type']:5s} = {item['value']} (raw: {item['raw_bytes']})")
+        print("\n--- DB{db_number} current state ---")
+        unified = self.unified_decoder(raw_bytes)
+        if not unified:
+            print("No non-zero values detected.")
+        for item in unified:
+            if item["type"] == "STRING":
+                print(f"{item['address']:12s}: STRING = '{item['value']}' (max:{item['max_length']}, len:{item['actual_length']})")
+            elif item["type"] == "BOOL":
+                print(f"{item['address']:12s}: BOOL   = {item['value']}")
+            else:
+                print(f"{item['address']:12s}: {item['type']:6s} = {item['value']}")
 
-        # Common INT/REAL/DINT
-        print("\n--- Common Types at Regular Offsets ---")
-        common = self.decode_common_types_at_offsets(raw_bytes)
-        for item in [r for r in common if r['value'] != 0][:15]:
-            print(f"{item['address']:12s}: {item['type']:5s} = {item['value']}")
-
-        # Booleans
-        print("\n--- Boolean Values (TRUE only, first 8 bytes) ---")
-        bools = self.decode_all_bools(raw_bytes)
-        for b in bools:
-            print(f"{b['address']:12s}: {b['value']}")
-
-        # Strings
-        print("\n--- String Values ---")
-        strings = self.decode_strings(raw_bytes)
-        if strings:
-            for s in strings:
-                print(f"{s['address']:12s}: STRING = '{s['value']}' (max:{s['max_length']}, len:{s['actual_length']})")
-        else:
-            print("No readable strings found")
 
     # ❗️For Testing One DB
     def test_single_db(self, db_number):
