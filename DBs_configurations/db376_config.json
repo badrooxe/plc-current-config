@@ -1,0 +1,278 @@
+{
+  "db_number": 376,
+  "data_block_name": "DB376",
+  "variables": {
+    "12.0": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_3",
+      "description": "Salle électrique 0",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 0
+    },
+    "12.1": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_4",
+      "description": "Salle électrique 1",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 1
+    },
+    "12.2": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_8",
+      "description": "Salle électrique 2",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 2
+    },
+    "12.3": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_11",
+      "description": "Control Unit",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 3
+    },
+    "12.4": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_12",
+      "description": "Mécanisme de levage 1 + 2 + mécanisme d'orientation",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 4
+    },
+    "12.5": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_13",
+      "description": "Entraînement méc. levage 1",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 5
+    },
+    "12.6": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_15",
+      "description": "Résistance freinage 1",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 6
+    },
+    "12.7": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_17",
+      "description": "Entraînement méc. levage 2",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 12,
+      "bit_position": 7
+    },
+    "13.0": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_18",
+      "description": "Entraînement méc. translation électrique",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 0
+    },
+    "13.1": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_19",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 1
+    },
+    "13.2": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_20",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 2
+    },
+    "13.3": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_21",
+      "description": "Entraînement mécanisme d'orientation",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 3
+    },
+    "13.4": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_24",
+      "description": "Cabine de tour",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 4
+    },
+    "13.5": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_25",
+      "description": "Système anti-ballant",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 5
+    },
+    "13.6": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_32",
+      "description": "Châssis",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 6
+    },
+    "13.7": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_36",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 13,
+      "bit_position": 7
+    },
+    "14.0": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_44",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 0
+    },
+    "14.1": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_48",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 1
+    },
+    "14.2": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_53",
+      "description": "Tambour à câble",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 2
+    },
+    "14.3": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_60",
+      "description": "Bus ASI superstructure",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 3
+    },
+    "14.4": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_61",
+      "description": "Passerelle CAN superstructure",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 4
+    },
+    "14.5": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_62",
+      "description": "Passerelle CAN PowerCaps",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 5
+    },
+    "14.6": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_63",
+      "description": "CPU CEC",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 6
+    },
+    "14.7": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_64",
+      "description": "Salle électrique Safety",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 14,
+      "bit_position": 7
+    },
+    "15.0": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_69",
+      "description": "Radiotélécommande",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 0
+    },
+    "15.1": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_70",
+      "description": "Passerelle CAN châssis",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 1
+    },
+    "15.2": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_85",
+      "description": "EKS cabine de tour",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 2
+    },
+    "15.3": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_86",
+      "description": "EKS superstructure",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 3
+    },
+    "15.4": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_90",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 4
+    },
+    "15.5": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_93",
+      "description": "Manipulateur à droite",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 5
+    },
+    "15.6": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_94",
+      "description": "Manipulateur à gauche",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 6
+    },
+    "15.7": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_95",
+      "description": "11_P_B21 Absolute encoder",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 15,
+      "bit_position": 7
+    },
+    "16.0": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_96",
+      "description": "12_P_B21 Absolute encoder",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 16,
+      "bit_position": 0
+    },
+    "16.1": {
+      "symbol": "DP DIAG Bus.DP_Busfault.Slave_97",
+      "description": "Réserve",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 16,
+      "bit_position": 1
+    }
+  }
+}

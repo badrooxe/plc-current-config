@@ -1,0 +1,162 @@
+{
+  "db_number": 100,
+  "data_block_name": "DB100",
+  "variables": {
+    "394": {
+      "symbol": "IBS._04_X1_MAX_POS",
+      "description": "Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = \"YMAXP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "398": {
+      "symbol": "IBS._04_X1_MIN_NEG",
+      "description": "Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = \"YMINN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "402": {
+      "symbol": "IBS._04_X1_MAX_NEG",
+      "description": "Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = \"YMAXN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "422": {
+      "symbol": "IBS._31_X1_MIN_POS",
+      "description": "Valeurs cons. soupape d'étranglement: variation de volée rapide: YMINP",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "542": {
+      "symbol": "IBS._04_X3_MAX_POS",
+      "description": "Valeurs cons. pompe hydr: variation de volée lente: YMAXP",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "546": {
+      "symbol": "IBS._04_X3_MIN_NEG",
+      "description": "Valeurs cons. pompe hydr: variation de volée lente: YMINN",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "550": {
+      "symbol": "IBS._04_X3_MAX_NEG",
+      "description": "Valeurs cons. pompe hydr: variation de volée lente: YMAXN",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "570": {
+      "symbol": "IBS._31_X3_MIN_POS",
+      "description": "Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: \"YMINP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "574": {
+      "symbol": "IBS._31_X3_MAX_POS",
+      "description": "Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: \"YMAXP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "754": {
+      "symbol": "IBS._04_X5_MAX_NEG",
+      "description": "Valeurs de cons. pompe hydraul. ppale pour méc. translation rapide: \"YMAXN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "774": {
+      "symbol": "IBS._42_X1_MIN_POS",
+      "description": "Valeurs de consigne pour la soupape de translation rapide: \"YMINP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "778": {
+      "symbol": "IBS._42_X1_MAX_POS",
+      "description": "Valeurs de consigne pour la soupape de translation rapide: \"YMAXP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "782": {
+      "symbol": "IBS._42_X1_MIN_NEG",
+      "description": "Valeurs de consigne pour la soupape de translation rapide: \"YMINN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1358": {
+      "symbol": "IBS._04_stabilizer_setpoint",
+      "description": "Valeurs de consigne fixes de la pompe hydraulique principale pour les calages",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1362": {
+      "symbol": "IBS._04_stab_setpoint_manual",
+      "description": "Valeurs de consigne fixes de la pompe hydr.princip.pour calages en mode manuel",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1376": {
+      "symbol": "IBS._04_X8_MIN_POS",
+      "description": "Valeurs de cons. pompe hydr. pour calage: \"YMINP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1380": {
+      "symbol": "IBS._04_X8_MAX_POS",
+      "description": "Valeurs de cons. pompe hydr. pour calage: \"YMAXP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1384": {
+      "symbol": "IBS._04_X8_MIN_NEG",
+      "description": "Valeurs de cons. pompe hydr. pour calage: \"YMINN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1388": {
+      "symbol": "IBS._04_X8_MAX_NEG",
+      "description": "Valeurs de cons. pompe hydr. pour calage: \"YMAXN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1392": {
+      "symbol": "IBS._04_T8_UP_POS",
+      "description": "Rampes pompe hydr. pour calage: \"TUP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1396": {
+      "symbol": "IBS._04_T8_DOWN_POS",
+      "description": "Rampes pompe hydr. pour calage: \"TDP\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1400": {
+      "symbol": "IBS._04_T8_UP_NEG",
+      "description": "Rampes pompe hydr. pour calage: \"TUN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1404": {
+      "symbol": "IBS._04_T8_DOWN_NEG",
+      "description": "Rampes pompe hydr. pour calage: \"TDN\"",
+      "unit": "",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1408": {
+      "symbol": "IBS._62_Lift_jack_cyl_T",
+      "description": "Mode automatique: relever les patin de calage",
+      "unit": "",
+      "data_type": "DUREE"
+    },
+    "1412": {
+      "symbol": "IBS._62_Prop_jack_cyl_T",
+      "description": "Mode automatique: descendre les patin de calage",
+      "unit": "",
+      "data_type": "DUREE"
+    },
+    "1474": {
+      "symbol": "IBS._63_calibration_load",
+      "description": "Charge maxi pour ajustement CEC en tonnes",
+      "unit": "tonnes",
+      "data_type": "DEC"
+    }
+  }
+}

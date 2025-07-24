@@ -1,0 +1,54 @@
+{
+  "db_number": 104,
+  "data_block_name": "DB104",
+  "variables": {
+    "66.2": {
+      "symbol": "",
+      "description": "",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 66,
+      "bit_position": 2
+    },
+    "66.6": {
+      "symbol": "",
+      "description": "",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 66,
+      "bit_position": 6
+    },
+    "80.0": {
+      "symbol": "VAR._41_EN_travel",
+      "description": "Validation: méc. translation électrique",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 80,
+      "bit_position": 0
+    },
+    "80.1": {
+      "symbol": "VAR._41_EN_storm_pin",
+      "description": "Validation: broche anti-tempête",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 80,
+      "bit_position": 1
+    },
+    "80.2": {
+      "symbol": "VAR._41_EN_ultrasonic_sensor",
+      "description": "Validation: capteurs Sonar",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 80,
+      "bit_position": 2
+    },
+    "80.3": {
+      "symbol": "VAR._41_EN_buffer_switches",
+      "description": "Validation: fin de course tampon",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 80,
+      "bit_position": 3
+    }
+  }
+}

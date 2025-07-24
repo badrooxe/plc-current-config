@@ -1,0 +1,12 @@
+{
+  "db_number": 105,
+  "data_block_name": "DB105",
+  "variables": {
+    "0": {
+      "symbol": "PLACEHOLDER",
+      "description": "No variables defined for DB105 in provided sources",
+      "unit": "",
+      "data_type": "UNKNOWN"
+    }
+  }
+}

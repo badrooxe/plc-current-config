@@ -1,0 +1,18 @@
+{
+  "db_number": 108,
+  "data_block_name": "DB108",
+  "variables": {
+    "0": {
+      "symbol": "OPC.Vi_act_pic",
+      "description": "Message de l'écran transmis à la commande, correspond à l'état réel de l'écran",
+      "unit": "",
+      "data_type": "DEC"
+    },
+    "2": {
+      "symbol": "OPC.Vi_set_pic",
+      "description": "Appel d'écran à partir de la commande: état valeur de consigne de l'écran",
+      "unit": "",
+      "data_type": "DEC"
+    }
+  }
+}

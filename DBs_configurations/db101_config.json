@@ -1,0 +1,48 @@
+{
+  "db_number": 101,
+  "data_block_name": "DB101",
+  "variables": {
+    "132": {
+      "symbol": "SLI.PLC_31_Angle_boom_DEG_R",
+      "description": "Angle de la flèche, unité en degrés 0 - 90 degrés",
+      "unit": "degrés",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "70": {
+      "symbol": "SLI.SLI_63_Perm_Bruttoload_R",
+      "description": "CEC: charge brute admissible en tonnes",
+      "unit": "tonnes",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "2": {
+      "symbol": "SLI.PLC_SLI_test_bit_No_I",
+      "description": "Test entrées et sorties vers CEC, valeurs 1 à 8 (possible uniquement dans API)",
+      "unit": "",
+      "data_type": "DEC"
+    },
+    "0.1": {
+      "symbol": "SLI.PLC_SLI_test_EN",
+      "description": "Connexion test CEC pour les courbes de charge (possible uniquement dans l?API)",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 0,
+      "bit_position": 1
+    },
+    "106.0": {
+      "symbol": "SLI._11_SET_1",
+      "description": "Enregistrer test de charge 1 (réglage 0 tonne = crochet vide)",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 106,
+      "bit_position": 0
+    },
+    "106.1": {
+      "symbol": "SLI._11_SET_2",
+      "description": "Enregistrer test de charge 2 (ajustement pour charge maximale)",
+      "unit": "",
+      "data_type": "BOOLEEN",
+      "byte_offset": 106,
+      "bit_position": 1
+    }
+  }
+}

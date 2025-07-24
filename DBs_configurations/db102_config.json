@@ -1,0 +1,522 @@
+{
+  "db_number": 102,
+  "data_block_name": "DB102",
+  "variables": {
+    "0": {
+      "symbol": "VALUE._01_Power_kW_R",
+      "description": "Puissance en kW",
+      "unit": "kW",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "4": {
+      "symbol": "VALUE._02_Measured_power_kW_R",
+      "description": "Puissance mesurée en kW",
+      "unit": "kW",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "54": {
+      "symbol": "VALUE._03_Braking_rectifier_network_voltage_V_R",
+      "description": "Tension du réseau du redresseur de freinage",
+      "unit": "V",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "58": {
+      "symbol": "VALUE._04_Network_frequency_Hz_R",
+      "description": "Fréquence du réseau",
+      "unit": "Hz",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "82": {
+      "symbol": "VALUE._05_Reduced_setpoint_hydraulic_pump_percent_R",
+      "description": "Consigne réduite pour pompe hydraulique",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "94": {
+      "symbol": "VALUE._06_Hydraulic_pump_setpoint_percent_R",
+      "description": "Consigne pompe hydraulique",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "98": {
+      "symbol": "VALUE._07_Hydraulic_system_temperature_degC_R",
+      "description": "Température système hydraulique",
+      "unit": "°C",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "102": {
+      "symbol": "VALUE._08_Actual_pump_pressure_bar_R",
+      "description": "Pression réelle de la pompe",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "122": {
+      "symbol": "VALUE._09_Diesel_fuel_tank_fill_level_percent_R",
+      "description": "Niveau de carburant diesel",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "182": {
+      "symbol": "VALUE._10_Reduce_speed_setpoint_power_reduction_percent_R",
+      "description": "Réduction de vitesse par réduction de puissance",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "186": {
+      "symbol": "VALUE._11_Calculate_speed_setpoint_hoist_load_percent_R",
+      "description": "Calculer la consigne de vitesse mécanisme de levage selon charge",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "190": {
+      "symbol": "VALUE._12_Apply_end_of_travel_value_command_steps_percent_R",
+      "description": "Appliquer la valeur de fin de course et la commande par paliers",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "202": {
+      "symbol": "VALUE._13_Hoist_target_point_reduced_setpoint_percent_R",
+      "description": "Levage vers point cible avec consigne réduite",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "206": {
+      "symbol": "VALUE._14_Setpoint_transmission_drive_percent_R",
+      "description": "Transmission de la consigne au variateur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "218": {
+      "symbol": "VALUE._15_Actual_speed_rpm_R",
+      "description": "Vitesse réelle",
+      "unit": "rpm",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "222": {
+      "symbol": "VALUE._16_Actual_current_A_R",
+      "description": "Courant réel",
+      "unit": "A",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "226": {
+      "symbol": "VALUE._17_Actual_power_kW_R",
+      "description": "Puissance réelle",
+      "unit": "kW",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "230": {
+      "symbol": "VALUE._18_Actual_motor_voltage_V_R",
+      "description": "Tension moteur réelle",
+      "unit": "V",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "234": {
+      "symbol": "VALUE._19_Actual_mains_frequency_Hz_R",
+      "description": "Fréquence réseau réelle",
+      "unit": "Hz",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "242": {
+      "symbol": "VALUE._20_Actual_motor_temperature_degC_R",
+      "description": "Température moteur réelle",
+      "unit": "°C",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "250": {
+      "symbol": "VALUE._21_Actual_lifting_height_m_absolute_encoder_R",
+      "description": "Hauteur de levage réelle (encodeur absolu)",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "262": {
+      "symbol": "VALUE._22_Service_pressure_hoist_brake_bar_R",
+      "description": "Pression de service frein mécanisme levage",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "270": {
+      "symbol": "VALUE._23_Hoist_mechanism_permissible_speed_m_per_min_R",
+      "description": "Vitesse admissible mécanisme levage",
+      "unit": "m/min",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "280": {
+      "symbol": "VALUE._24_Hoist_mechanism_gearbox_oil_temperature_degC_R",
+      "description": "Température huile boîte de vitesses mécanisme levage",
+      "unit": "°C",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "312": {
+      "symbol": "VALUE._25_Hoist_mechanism_permissible_speed_rpm_R",
+      "description": "Vitesse admissible mécanisme levage",
+      "unit": "rpm",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "316": {
+      "symbol": "VALUE._26_Hoist_setpoint_manipulator_percent_R",
+      "description": "Consigne levage via manipulateur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "326": {
+      "symbol": "VALUE._27_Order_read_adjust_setpoint_percent_R",
+      "description": "Ordre : lecture et ajustement de la consigne",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "330": {
+      "symbol": "VALUE._28_Setpoint_transmission_drive_percent_R",
+      "description": "Transmission de la consigne au variateur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "378": {
+      "symbol": "VALUE._29_Actual_lifting_height_m_absolute_encoder_R",
+      "description": "Hauteur de levage réelle (encodeur absolu)",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "390": {
+      "symbol": "VALUE._30_Service_pressure_closing_mechanism_brake_bar_R",
+      "description": "Pression de service frein mécanisme fermeture",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "464": {
+      "symbol": "VALUE._31_Order_read_adjust_setpoint_percent_R",
+      "description": "Ordre : lecture et ajustement de la consigne",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "472": {
+      "symbol": "VALUE._32_Calculate_slew_speed_outreach_percent_R",
+      "description": "Calculer la consigne de vitesse rotation selon portée",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "476": {
+      "symbol": "VALUE._33_Setpoint_transmission_drive_percent_R",
+      "description": "Transmission de la consigne au variateur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "496": {
+      "symbol": "VALUE._34_Actual_speed_rpm_R",
+      "description": "Vitesse réelle",
+      "unit": "rpm",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "500": {
+      "symbol": "VALUE._35_Actual_current_A_R",
+      "description": "Courant réel",
+      "unit": "A",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "508": {
+      "symbol": "VALUE._36_Actual_motor_voltage_V_R",
+      "description": "Tension moteur réelle",
+      "unit": "V",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "512": {
+      "symbol": "VALUE._37_Actual_motor_temperature_degC_R",
+      "description": "Température moteur réelle",
+      "unit": "°C",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "516": {
+      "symbol": "VALUE._38_Actual_slewing_angle_superstructure_chassis_deg_R",
+      "description": "Angle de rotation réel châssis superstructure",
+      "unit": "degrés",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "520": {
+      "symbol": "VALUE._39_Actual_acceleration_time_seconds_R",
+      "description": "Temps d'accélération réel",
+      "unit": "secondes",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "528": {
+      "symbol": "VALUE._40_Motor_speed_setpoint_percent_R",
+      "description": "Consigne vitesse moteur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "532": {
+      "symbol": "VALUE._41_Maximum_crane_speed_rpm_R",
+      "description": "Vitesse maximale grue",
+      "unit": "rpm",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "538": {
+      "symbol": "VALUE._42_Reduced_maximum_peripheral_speed_m_per_min_R",
+      "description": "Vitesse périphérique maximale réduite",
+      "unit": "m/min",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "542": {
+      "symbol": "VALUE._43_Reduced_maximum_slew_speed_rpm_R",
+      "description": "Vitesse de rotation maximale réduite",
+      "unit": "rpm",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "578": {
+      "symbol": "VALUE._44_Slew_setpoint_manipulator_percent_R",
+      "description": "Consigne rotation via manipulateur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "592": {
+      "symbol": "VALUE._45_Boom_raising_calculate_permissible_outreach_m_R",
+      "description": "Calcul portée admissible levage flèche",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "596": {
+      "symbol": "VALUE._46_Boom_lowering_calculate_permissible_outreach_m_R",
+      "description": "Calcul portée admissible descente flèche",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "640": {
+      "symbol": "VALUE._47_Actual_luffing_cylinder_speed_mm_per_s_or_m_per_min_R",
+      "description": "Vitesse réelle vérin de flèche",
+      "unit": "mm/s ou m/min",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "652": {
+      "symbol": "VALUE._48_Outreach_m_absolute_encoder_R",
+      "description": "Portée (encodeur absolu)",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "664": {
+      "symbol": "VALUE._49_Luffing_setpoint_manipulator_percent_R",
+      "description": "Consigne flèche via manipulateur",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "674": {
+      "symbol": "VALUE._50_Pressure_luffing_piston_side_bar_R",
+      "description": "Pression côté piston vérin de flèche",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "678": {
+      "symbol": "VALUE._51_Travel_setpoint_percent_R",
+      "description": "Consigne déplacement",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "682": {
+      "symbol": "VALUE._52_Frequency_setpoint_Hz_R",
+      "description": "Consigne fréquence",
+      "unit": "Hz",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "686": {
+      "symbol": "VALUE._53_Actual_speed_rpm_R",
+      "description": "Vitesse réelle",
+      "unit": "rpm",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "694": {
+      "symbol": "VALUE._54_Actual_current_A_R",
+      "description": "Courant réel",
+      "unit": "A",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "698": {
+      "symbol": "VALUE._55_Intermediate_circuit_voltage_V_R",
+      "description": "Tension circuit intermédiaire",
+      "unit": "V",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "702": {
+      "symbol": "VALUE._56_Output_voltage_V_R",
+      "description": "Tension de sortie",
+      "unit": "V",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "710": {
+      "symbol": "VALUE._57_Order_read_adjust_setpoint_percent_R",
+      "description": "Ordre : lecture et ajustement de la consigne",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "714": {
+      "symbol": "VALUE._58_Order_read_adjust_setpoint_percent_R",
+      "description": "Ordre : lecture et ajustement de la consigne",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "860": {
+      "symbol": "VALUE._59_Calibration_angle_X_axis_deg_R",
+      "description": "Calibration : angle axe X",
+      "unit": "degrés",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "864": {
+      "symbol": "VALUE._60_Calibration_angle_Y_axis_deg_R",
+      "description": "Calibration : angle axe Y",
+      "unit": "degrés",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "868": {
+      "symbol": "VALUE._61_Calibration_angle_X_axis_deg_R",
+      "description": "Calibration : angle axe X",
+      "unit": "degrés",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "872": {
+      "symbol": "VALUE._62_Calibration_angle_Y_axis_deg_R",
+      "description": "Calibration : angle axe Y",
+      "unit": "degrés",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "892": {
+      "symbol": "VALUE._63_Actual_wind_speed_m_per_s_R",
+      "description": "Vitesse du vent réelle",
+      "unit": "m/s",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "902": {
+      "symbol": "VALUE._64_Gross_load_tonnes_R",
+      "description": "Charge totale",
+      "unit": "tonnes",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "910": {
+      "symbol": "VALUE._65_Net_load_tonnes_R",
+      "description": "Charge nette",
+      "unit": "tonnes",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "926": {
+      "symbol": "VALUE._66_Permitted_gross_load_tonnes_R",
+      "description": "Charge totale autorisée",
+      "unit": "tonnes",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "938": {
+      "symbol": "VALUE._67_Outreach_meters_R",
+      "description": "Portée",
+      "unit": "mètres",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "946": {
+      "symbol": "VALUE._68_Relative_gross_load_percent_R",
+      "description": "Charge totale relative",
+      "unit": "%",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "958": {
+      "symbol": "VALUE._69_Hoist_load_spectrum_counter_unitless_R",
+      "description": "Compteur spectre de charge levage",
+      "unit": "sans unité",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1020": {
+      "symbol": "VALUE._70_CEC_indicator_test_mode_actual_load_tonnes_R",
+      "description": "Indicateur CEC, mode test : charge réelle",
+      "unit": "tonnes",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1268": {
+      "symbol": "VALUE._71_Permitted_outreach_boom_raise_no_limit_calc1_m_R",
+      "description": "Portée admissible levage flèche sans limitation, calcul 1",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1292": {
+      "symbol": "VALUE._72_Permitted_outreach_boom_raise_no_limit_calc2_m_R",
+      "description": "Portée admissible levage flèche sans limitation, calcul 2",
+      "unit": "m",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1314": {
+      "symbol": "VALUE._73_Hex_Value_R",
+      "description": "Valeur hexadécimale",
+      "unit": "",
+      "data_type": "HEXA"
+    },
+    "1316": {
+      "symbol": "VALUE._74_Pressure_1_front_right_side_piston_bar_R",
+      "description": "Pression 1 côté avant droit (piston)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1320": {
+      "symbol": "VALUE._75_Pressure_1_front_right_side_rod_bar_R",
+      "description": "Pression 1 côté avant droit (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1324": {
+      "symbol": "VALUE._76_Pressure_1_rear_right_side_piston_bar_R",
+      "description": "Pression 1 côté arrière droit (piston)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1328": {
+      "symbol": "VALUE._77_Pressure_1_rear_right_side_rod_bar_R",
+      "description": "Pression 1 côté arrière droit (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1332": {
+      "symbol": "VALUE._78_Pressure_1_rear_left_side_piston_bar_R",
+      "description": "Pression 1 côté arrière gauche (piston)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1336": {
+      "symbol": "VALUE._79_Pressure_1_rear_left_side_rod_bar_R",
+      "description": "Pression 1 côté arrière gauche (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1344": {
+      "symbol": "VALUE._80_Pressure_2_front_left_side_rod_bar_R",
+      "description": "Pression 2 côté avant gauche (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1348": {
+      "symbol": "VALUE._81_Pressure_2_front_right_side_piston_bar_R",
+      "description": "Pression 2 côté avant droit (piston)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1352": {
+      "symbol": "VALUE._82_Pressure_2_front_right_side_rod_bar_R",
+      "description": "Pression 2 côté avant droit (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1356": {
+      "symbol": "VALUE._83_Pressure_2_rear_right_side_piston_bar_R",
+      "description": "Pression 2 côté arrière droit (piston)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1360": {
+      "symbol": "VALUE._84_Pressure_2_rear_right_side_rod_bar_R",
+      "description": "Pression 2 côté arrière droit (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1364": {
+      "symbol": "VALUE._85_Pressure_2_rear_left_side_piston_bar_R",
+      "description": "Pression 2 côté arrière gauche (piston)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "1368": {
+      "symbol": "VALUE._86_Pressure_2_rear_left_side_rod_bar_R",
+      "description": "Pression 2 côté arrière gauche (tige)",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    }
+  }
+}

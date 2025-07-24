@@ -1,0 +1,18 @@
+{
+  "db_number": 103,
+  "data_block_name": "DB103",
+  "variables": {
+    "174": {
+      "symbol": "TYP._04_Press_2_Rmax_bar",
+      "description": "Valeur pression pr niv. de press.2 en bars lors relev. flèche en portée maxi",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "178": {
+      "symbol": "TYP._04_Press_3_Rmin_bar",
+      "description": "Valeur pression pr niv. de press.3 en bars lors abaiss. flèche en portée mini",
+      "unit": "bar",
+      "data_type": "VIRGULE_FLOTTANTE"
+    }
+  }
+}

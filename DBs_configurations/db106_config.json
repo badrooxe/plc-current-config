@@ -1,0 +1,36 @@
+{
+  "db_number": 106,
+  "data_block_name": "DB106",
+  "variables": {
+    "78": {
+      "symbol": "RETAIN.OH_11_H_T_M",
+      "description": "Compteur d'heures de service: heures jusqu'au prochain entretien",
+      "unit": "heures",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "110": {
+      "symbol": "RETAIN.OH_12_H",
+      "description": "Compteur d'heures de service: heures",
+      "unit": "heures",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "114": {
+      "symbol": "RETAIN.OH_12_H_A_M",
+      "description": "Compteur d'heures de service: heures depuis le dernier entretien",
+      "unit": "heures",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "118": {
+      "symbol": "RETAIN.OH_12_H_T_M",
+      "description": "Compteur d'heures de service: heures jusqu'au prochain entretien",
+      "unit": "heures",
+      "data_type": "VIRGULE_FLOTTANTE"
+    },
+    "218": {
+      "symbol": "RETAIN.OH_21_H",
+      "description": "Compteur d'heures de service: heures",
+      "unit": "heures",
+      "data_type": "VIRGULE_FLOTTANTE"
+    }
+  }
+}

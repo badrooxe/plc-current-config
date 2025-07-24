@@ -1,0 +1,133 @@
+offset,description,measurement_unit,data_type
+20,._04_Press_stage_1	mA pour pression 1  50 bars: Ne pas modifier,,VIRGULE_FLOTTANTE
+24,._04_Press_stage_2_Rmin	mA pour niveau de pression 2 xxx bars: relevage de flèche en portée min,,VIRGULE_FLOTTANTE
+28,._04_Press_stage_2_Rmax	mA pour niveau de pression 2 xxx bars: relevage de flèche en portée maxi,,VIRGULE_FLOTTANTE
+32,._04_Press_stage_3_Rmin	mA pour niveau de pression 3 xxx bars: abaissement de flèche en portée mini,,VIRGULE_FLOTTANTE
+36,._04_Press_stage_3_Rmax	mA pour niveau de pression 3 xxx bars: abaissement de flèche en portée maxi,,VIRGULE_FLOTTANTE
+40,"._04_Press_stage_4	mA pour pression 4 280 bars: calage, relever flèche",,VIRGULE_FLOTTANTE
+44,"._04_Press_stage_5	mA für Druckstufe 5 250 bar: Träger Ein/Ausschieben, Stützen anheben",,VIRGULE_FLOTTANTE
+48,._04_Press_stage_6_Rmin_H	mA pr niveau press.6 xxx bars:abaissement flèche en portée mini charge lourde,,VIRGULE_FLOTTANTE
+52,._04_Press_stage_6_Rmax_H	mA pr niveau press.6 xxx bars: abaissement flèche en portée maxi charge lourde,,VIRGULE_FLOTTANTE
+56,._04_Press_stage_7	mA pr niveau press.7 xxx bars: relevage flèche (mode entretien),,VIRGULE_FLOTTANTE
+60,._04_Press_stage_8	mA für Druckstufe 8 Y21 ON (nur GHxK 8),,VIRGULE_FLOTTANTE
+102,._11_Gear_impuls	Impulsion transmise au réducteur en %,,VIRGULE_FLOTTANTE
+108,._11_eta_offset_fast	eta vitesse rapide,,VIRGULE_FLOTTANTE
+112,._11_eta_offset_middle	eta vitesse moyenne,,VIRGULE_FLOTTANTE
+116,._11_eta_offset_slow	eta vitesse lente,,VIRGULE_FLOTTANTE
+120,._11_Reduce_MUL1	Leistungsreduzierung Stufe 1 in %,,VIRGULE_FLOTTANTE
+124,._11_Reduce_MUL2	Leistungsreduzierung Stufe 2 in %,,VIRGULE_FLOTTANTE
+154,._11_Load_limit_h_on	Valeur limite de la charge pour réduction %: MARCHE,,VIRGULE_FLOTTANTE
+158,._11_Load_limit_l_off	Valeur limite de la charge pour réduction %: ARRET,,VIRGULE_FLOTTANTE
+298,._21_Setp_inc_R	Valeur cons. fixe pour actionnement par à-coups: superstr. orientation à droite,,VIRGULE_FLOTTANTE
+302,._21_Setp_inc_L	Valeur cons. fixe pour actionnement par à-coups: superstr. orientation à gauche,,VIRGULE_FLOTTANTE
+332,._31_Reduce_3_movements	Réduction vitesse var. de volée lors du relevage de flèche et trois mouvements,,VIRGULE_FLOTTANTE
+390,"._04_X1_MIN_POS	Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = ""YMINP""",,VIRGULE_FLOTTANTE
+394,"._04_X1_MAX_POS	Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = ""YMAXP""",,VIRGULE_FLOTTANTE
+398,"._04_X1_MIN_NEG	Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = ""YMINN""",,VIRGULE_FLOTTANTE
+402,"._04_X1_MAX_NEG	Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = ""YMAXN""",,VIRGULE_FLOTTANTE
+422,._31_X1_MIN_POS	Valeurs cons. soupape d'étranglement: variation de volée rapide: YMINP,,VIRGULE_FLOTTANTE
+426,._31_X1_MAX_POS	Valeurs cons. soupape d'étranglement: variation de volée rapide: YMAXP,,VIRGULE_FLOTTANTE
+430,._31_X1_MIN_NEG	Valeurs cons. soupape d'étranglement: variation de volée rapide: YMINN,,VIRGULE_FLOTTANTE
+434,._31_X1_MAX_NEG	Valeurs cons. soupape d'étranglement: variation de volée rapide: YMAXN,,VIRGULE_FLOTTANTE
+464,"._04_X2_MIN_POS	Sollwerte Haupthydraulikpumpe: mittlere Wippstufe: ""YMINP""",,VIRGULE_FLOTTANTE
+468,"._04_X2_MAX_POS	Sollwerte Haupthydraulikpumpe: mittlere Wippstufe: ""YMAXP""",,VIRGULE_FLOTTANTE
+472,"._04_X2_MIN_NEG	Sollwerte Haupthydraulikpumpe: mittlere Wippstufe: ""YMINN""",,VIRGULE_FLOTTANTE
+476,"._04_X2_MAX_NEG	Sollwerte Haupthydraulikpumpe: mittlere Wippstufe: ""YMAXN""",,VIRGULE_FLOTTANTE
+496,"._31_X2_MIN_POS	Sollwerte Drosselventil: mittlere Wippstufe: ""YMINP""",,VIRGULE_FLOTTANTE
+500,"._31_X2_MAX_POS	Sollwerte Drosselventil: mittlere Wippstufe: ""YMAXP""",,VIRGULE_FLOTTANTE
+504,"._31_X2_MIN_NEG	Sollwerte Drosselventil: mittlere Wippstufe: ""YMINN""",,VIRGULE_FLOTTANTE
+508,"._31_X2_MAX_NEG	Sollwerte Drosselventil: mittlere Wippstufe: ""YMAXN""",,VIRGULE_FLOTTANTE
+538,._04_X3_MIN_POS	Valeurs cons. pompe hydr: variation de volée lente: YMINP,,VIRGULE_FLOTTANTE
+542,._04_X3_MAX_POS	Valeurs cons. pompe hydr: variation de volée lente: YMAXP,,VIRGULE_FLOTTANTE
+546,._04_X3_MIN_NEG	Valeurs cons. pompe hydr: variation de volée lente: YMINN,,VIRGULE_FLOTTANTE
+550,._04_X3_MAX_NEG	Valeurs cons. pompe hydr: variation de volée lente: YMAXN,,VIRGULE_FLOTTANTE
+570,"._31_X3_MIN_POS	Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: ""YMINP""",,VIRGULE_FLOTTANTE
+574,"._31_X3_MAX_POS	Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: ""YMAXP""",,VIRGULE_FLOTTANTE
+578,"._31_X3_MIN_NEG	Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: ""YMINN""",,VIRGULE_FLOTTANTE
+582,"._31_X3_MAX_NEG	Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: ""YMAXN""",,VIRGULE_FLOTTANTE
+612,"._04_X4_MIN_POS	Sollwerte Haupthydraulikpumpe: Personentransport: ""YMINP""",,VIRGULE_FLOTTANTE
+616,"._04_X4_MAX_POS	Sollwerte Haupthydraulikpumpe: Personentransport: ""YMAXP""",,VIRGULE_FLOTTANTE
+620,"._04_X4_MIN_NEG	Sollwerte Haupthydraulikpumpe: Personentransport: ""YMINN""",,VIRGULE_FLOTTANTE
+624,"._04_X4_MAX_NEG	Sollwerte Haupthydraulikpumpe: Personentransport: ""YMAXN""",,VIRGULE_FLOTTANTE
+644,"._31_X4_MIN_POS	Sollwerte Drosselventil Wippzylinder: Personentransport: ""YMINP""",,VIRGULE_FLOTTANTE
+648,"._31_X4_MAX_POS	Sollwerte Drosselventil Wippzylinder: Personentransport: ""YMAXP""",,VIRGULE_FLOTTANTE
+652,"._31_X4_MIN_NEG	Sollwerte Drosselventil Wippzylinder: Personentransport: ""YMINN""",,VIRGULE_FLOTTANTE
+656,"._31_X4_MAX_NEG	Sollwerte Drosselventil Wippzylinder: Personentransport: ""YMAXN""",,VIRGULE_FLOTTANTE
+742,"._04_X5_MIN_POS	Valeurs de cons. pompe hydraul. ppale pour méc. translation rapide: ""YMINP""",,VIRGULE_FLOTTANTE
+746,"._04_X5_MAX_POS	Valeurs de cons. pompe hydraul. ppale pour méc. translation rapide: ""YMAXP""",,VIRGULE_FLOTTANTE
+750,"._04_X5_MIN_NEG	Valeurs de cons. pompe hydraul. ppale pour méc. translation rapide: ""YMINN""",,VIRGULE_FLOTTANTE
+754,"._04_X5_MAX_NEG	Valeurs de cons. pompe hydraul. ppale pour méc. translation rapide: ""YMAXN""",,VIRGULE_FLOTTANTE
+774,"._42_X1_MIN_POS	Valeurs de consigne pour la soupape de translation rapide: ""YMINP""",,VIRGULE_FLOTTANTE
+778,"._42_X1_MAX_POS	Valeurs de consigne pour la soupape de translation rapide: ""YMAXP""",,VIRGULE_FLOTTANTE
+782,"._42_X1_MIN_NEG	Valeurs de consigne pour la soupape de translation rapide: ""YMINN""",,VIRGULE_FLOTTANTE
+786,"._42_X1_MAX_NEG	Valeurs de consigne pour la soupape de translation rapide: ""YMAXN""",,VIRGULE_FLOTTANTE
+816,"._04_X6_MIN_POS	Sollwerte Haupthydraulikpumpe für Fahrwerk mittel: ""YMINP""",,VIRGULE_FLOTTANTE
+820,"._04_X6_MAX_POS	Sollwerte Haupthydraulikpumpe für Fahrwerk mittel: ""YMAXP""",,VIRGULE_FLOTTANTE
+824,"._04_X6_MIN_NEG	Sollwerte Haupthydraulikpumpe für Fahrwerk mittel: ""YMINN""",,VIRGULE_FLOTTANTE
+828,"._04_X6_MAX_NEG	Sollwerte Haupthydraulikpumpe für Fahrwerk mittel: ""YMAXN""",,VIRGULE_FLOTTANTE
+852,"._42_X2_MAX_POS	Sollwerte für Fahren Ventil mittel: ""YMAXP""",,VIRGULE_FLOTTANTE
+856,"._42_X2_MIN_NEG	Sollwerte für Fahren Ventil mittel: ""YMINN""",,VIRGULE_FLOTTANTE
+860,"._42_X2_MAX_NEG	Sollwerte für Fahren Ventil mittel: ""YMAXN""",,VIRGULE_FLOTTANTE
+890,"._04_X7_MIN_POS	Sollwerte Haupthydraulikpumpe für Fahren langsam: ""YMINP""",,VIRGULE_FLOTTANTE
+894,"._04_X7_MAX_POS	Sollwerte Haupthydraulikpumpe für Fahren langsam: ""YMAXP""",,VIRGULE_FLOTTANTE
+898,"._04_X7_MIN_NEG	Sollwerte Haupthydraulikpumpe für Fahren langsam: ""YMINN""",,VIRGULE_FLOTTANTE
+902,"._04_X7_MAX_NEG	Sollwerte Haupthydraulikpumpe für Fahren langsam: ""YMAXN""",,VIRGULE_FLOTTANTE
+922,"._42_X3_MIN_POS	Sollwerte für Fahren langsam: ""YMINP""",,VIRGULE_FLOTTANTE
+926,"._42_X3_MAX_POS	Sollwerte für Fahren langsam: ""YMAXP""",,VIRGULE_FLOTTANTE
+930,"._42_X3_MIN_NEG	Sollwerte für Fahren langsam: ""YMINN""",,VIRGULE_FLOTTANTE
+934,"._42_X3_MAX_NEG	Sollwerte für Fahren langsam: ""YMAXN""",,VIRGULE_FLOTTANTE
+1132,._53_Spring_tension	Prétension du ressort en [N],,VIRGULE_FLOTTANTE
+1136,._53_M_acc_11_up_fast	Levage: couple d'accélération vitesse rapide,,VIRGULE_FLOTTANTE
+1140,._53_M_dec_11_up_fast	Levage: couple de freinage vitesse rapide,,VIRGULE_FLOTTANTE
+1144,._53_M_acc_11_dwn_fast	Descente: couple d'accélération vitesse rapide,,VIRGULE_FLOTTANTE
+1148,._53_M_dec_11_dwn_fast	Levage: couple de freinage vitesse rapide,,VIRGULE_FLOTTANTE
+1152,._53_M_acc_31_out_fast	Abaisser la flèche: couple d'accélération vitesse rapide,,VIRGULE_FLOTTANTE
+1156,._53_M_dec_31_out_fast	Abaisser la flèche: couple de freinage vitesse rapide,,VIRGULE_FLOTTANTE
+1160,._53_M_acc_31_in_fast	Relevage de la flèche: couple d'accélération vitesse rapide,,VIRGULE_FLOTTANTE
+1164,._53_M_dec_31_in_fast	Relevage de la flèche: couple de freinage vitesse rapide,,VIRGULE_FLOTTANTE
+1168,._53_M_acc_11_up_middle	Levage: couple d'accélération vitesse moyenne,,VIRGULE_FLOTTANTE
+1172,._53_M_dec_11_up_middle	Levage: couple de freinage vitesse moyenne,,VIRGULE_FLOTTANTE
+1176,._53_M_acc_11_dwn_middle	Descente: couple d'accélération vitesse moyenne,,VIRGULE_FLOTTANTE
+1180,._53_M_dec_11_dwn_middle	Levage: couple de freinage vitesse moyenne,,VIRGULE_FLOTTANTE
+1184,._53_M_acc_31_out_middle	Abaisser la flèche: couple d'accélération vitesse moyenne,,VIRGULE_FLOTTANTE
+1188,._53_M_dec_31_out_middle	Abaisser la flèche: couple de freinage vitesse moyenne,,VIRGULE_FLOTTANTE
+1192,._53_M_acc_31_in_middle	Relevage de la flèche: couple d'accélération vitesse moyenne,,VIRGULE_FLOTTANTE
+1196,._53_M_dec_31_in_middle	Relevage de la flèche: couple de freinage vitesse moyenne,,VIRGULE_FLOTTANTE
+1200,._53_M_acc_11_up_slow	Levage: couple d'accélération vitesse lente,,VIRGULE_FLOTTANTE
+1204,._53_M_dec_11_up_slow	Levage: couple de freinage vitesse lente,,VIRGULE_FLOTTANTE
+1208,._53_M_acc_11_dwn_slow	Descente: couple d'accélération vitesse lente,,VIRGULE_FLOTTANTE
+1212,._53_M_dec_11_dwn_slow	Levage: couple de freinage vitesse lente,,VIRGULE_FLOTTANTE
+1216,._53_M_acc_31_out_slow	Abaisser la flèche: couple d'accélération vitesse lente,,VIRGULE_FLOTTANTE
+1220,._53_M_dec_31_out_slow	Abaisser la flèche: couple de freinage vitesse lente,,VIRGULE_FLOTTANTE
+1224,._53_M_acc_31_in_slow	Relevage de la flèche: couple d'accélération vitesse lente,,VIRGULE_FLOTTANTE
+1228,._53_M_dec_31_in_slow	Relevage de la flèche: couple de freinage vitesse lente,,VIRGULE_FLOTTANTE
+1324,._61_P_B701_delayed	Enclenchement retardé position droite,,DUREE
+1328,._61_X_B11_Offset	Calage: décalage angle de l’axe X,,VIRGULE_FLOTTANTE
+1332,._61_Y_B11_Offset	Calage: décalage affichage angle de l’axe Y,,VIRGULE_FLOTTANTE
+1336,._61_X_B12_Offset	Calage: décalage angle de l’axe X,,VIRGULE_FLOTTANTE
+1340,._61_Y_B12_Offset	Calage: décalage affichage angle de l’axe Y,,VIRGULE_FLOTTANTE
+1358,._04_stabilizer_setpoint	Valeurs de consigne fixes de la pompe hydraulique principale pour les calages,,VIRGULE_FLOTTANTE
+1362,._04_stab_setpoint_manual	Valeurs de consigne fixes de la pompe hydr.princip.pour calages en mode manuel,,VIRGULE_FLOTTANTE
+1376,"._04_X8_MIN_POS	Valeurs de cons. pompe hydr. pour calage: ""YMINP""",,VIRGULE_FLOTTANTE
+1380,"._04_X8_MAX_POS	Valeurs de cons. pompe hydr. pour calage: ""YMAXP""",,VIRGULE_FLOTTANTE
+1384,"._04_X8_MIN_NEG	Valeurs de cons. pompe hydr. pour calage: ""YMINN""",,VIRGULE_FLOTTANTE
+1388,"._04_X8_MAX_NEG	Valeurs de cons. pompe hydr. pour calage: ""YMAXN""",,VIRGULE_FLOTTANTE
+1392,"._04_T8_UP_POS	Rampes pompe hydr. pour calage: ""TUP""",,VIRGULE_FLOTTANTE
+1396,"._04_T8_DOWN_POS	Rampes pompe hydr. pour calage: ""TDP""",,VIRGULE_FLOTTANTE
+1400,"._04_T8_UP_NEG	Rampes pompe hydr. pour calage: ""TUN""",,VIRGULE_FLOTTANTE
+1404,"._04_T8_DOWN_NEG	Rampes pompe hydr. pour calage: ""TDN""",,VIRGULE_FLOTTANTE
+1408,._62_Lift_jack_cyl_T	Mode automatique: relever les patin de calage,,DUREE
+1412,._62_Prop_jack_cyl_T	Mode automatique: descendre les patin de calage,,DUREE
+1474,._63_calibration_load	Charge maxi pour ajustement CEC en tonnes,,VIRGULE_FLOTTANTE
+1586,"._04_I_max_P1	Courant en mA pour angle de pivotement 100%, pompe 1",,VIRGULE_FLOTTANTE
+1590,"._04_I_max_P2	Courant en mA pour angle de pivotement 100%, pompe 2",,VIRGULE_FLOTTANTE
+1594,"._04_I_max_P3	Courant en mA pour angle de pivotement 100%, pompe 3",,VIRGULE_FLOTTANTE
+1598,"._04_I_max_P4	Courant en mA pour angle de pivotement 100%, pompe 4",,VIRGULE_FLOTTANTE
+1640,"._04_X9_MIN_POS	Sollwerte Haupthydraulikpumpe: Tandemlift: ""YMINP""",,VIRGULE_FLOTTANTE
+1644,"._04_X9_MAX_POS	Sollwerte Haupthydraulikpumpe: Tandemlift: ""YMAXP""",,VIRGULE_FLOTTANTE
+1648,"._04_X9_MIN_NEG	Sollwerte Haupthydraulikpumpe: Tandemlift: ""YMINN""",,VIRGULE_FLOTTANTE
+1652,"._04_X9_MAX_NEG	Sollwerte Haupthydraulikpumpe: Tandemlift: ""YMAXN""",,VIRGULE_FLOTTANTE
+1672,"._31_X5_MIN_POS	Sollwerte Drosselventil Wippzylinder: Tandemlift: ""YMINP""",,VIRGULE_FLOTTANTE
+1676,"._31_X5_MAX_POS	Sollwerte Drosselventil Wippzylinder: Tandemlift: ""YMAXP""",,VIRGULE_FLOTTANTE
+1680,"._31_X5_MIN_NEG	Sollwerte Drosselventil Wippzylinder: Tandemlift: ""YMINN""",,VIRGULE_FLOTTANTE
+1684,"._31_X5_MAX_NEG	Sollwerte Drosselventil Wippzylinder: Tandemlift: ""YMAXN""",,VIRGULE_FLOTTANTE

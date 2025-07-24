@@ -15,7 +15,7 @@ def parse_db102_info(input_file_path, output_csv_path):
     # Captures offset, symbol, description, data type, and optional measurement unit
     # Handles cases where the unit might be on the same line or the next line
     dbd_pattern = re.compile(
-        r'DB102\.DBD\s+(\d+)\s*"([^"]*)"\s*(.*?)\s+([A-Z_]+)(?:\s+([A-Z%°/\-0-9]+))?$'
+        r'DB100\.DBD\s+(\d+)\s*"([^"]*)"\s*(.*?)\s+([A-Z_]+)(?:\s+([A-Z%°/\-0-9]+))?$'
     )
 
     try:
@@ -33,7 +33,7 @@ def parse_db102_info(input_file_path, output_csv_path):
         line = lines[i].strip()
 
         # Look for DB102.DBD entries
-        if line.startswith("DB102.DBD"):
+        if line.startswith("DB100.DBD"):
             match = dbd_pattern.match(line)
             if match:
                 offset = match.group(1)
@@ -76,7 +76,7 @@ def parse_db102_info(input_file_path, output_csv_path):
 
     # --- Write to CSV ---
     if not dbd_entries:
-        print("No DB102.DBD entries found in the input file.")
+        print("No DB100.DBD entries found in the input file.")
         return
 
     # Sort entries by offset numerically
@@ -92,7 +92,7 @@ def parse_db102_info(input_file_path, output_csv_path):
                 writer.writerow(entry)
 
         print(f"✅ Successfully created CSV file: {output_csv_path}")
-        print(f"   Found {len(sorted_entries)} unique DB102.DBD entries.")
+        print(f"   Found {len(sorted_entries)} unique DB100.DBD entries.")
     except Exception as e:
         print(f"Error writing CSV file '{output_csv_path}': {e}")
 
@@ -101,6 +101,6 @@ def parse_db102_info(input_file_path, output_csv_path):
 if __name__ == "__main__":
     # Replace 'Pasted_Text_1753349311500.txt' with the actual path to your uploaded file
     input_file = 'variableTables.txt'
-    output_file = 'db102_summary.csv'
+    output_file = 'db100_summary.csv'
 
     parse_db102_info(input_file, output_file)
