@@ -2,11 +2,14 @@ import logging
 import os
 import ctypes
 import json
+import influxdb_client
 import snap7
 from snap7.util import *
 from snap7.type import Areas
 import time
 from datetime import datetime
+from influxdb_insert import insert_values_to_influxdb
+from influxdb_client import InfluxDBClient
 
 
 # ----------- Configuration ----------- #
@@ -389,6 +392,21 @@ class PLCAnalyzer:
                         f.write(f"Offset {offset_str:>6}: {'❌ Not extracted':>12} - {symbol} - {description}{unit_display}{type_display}\n")
                         
             print(f"✅ Appended extracted values for DB{db_number} to {output_file}")
+
+            token = "1BOz9P_KlFRxnVx_F-vAKLif9EKCN4atknuxDSPCnSRhA_7Um1OjZR4AIBbHOTMd1ES0xs1uV05NbrbwG-pRsw=="
+            if not token:
+                raise ValueError("INFLUXDB_TOKEN environment variable not set")
+
+            client = influxdb_client.InfluxDBClient(url="http://localhost:8086", token=token, org="plc-org")
+            insert_values_to_influxdb(
+                extracted_values,
+                config,
+                timestamp,
+                db_number,
+                influx_client=client,
+                bucket="plc-data",
+                org="plc-org"
+            )
 
         except Exception as e:
             error_msg = f"Error exporting values for DB{db_number} to file: {e}"
