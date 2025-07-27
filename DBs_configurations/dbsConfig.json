@@ -1,0 +1,1674 @@
+{
+  "DBS": [
+    {
+      "Section": "dp diag bus dp_busfault slave_3",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.0,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_3",
+      "Description": "Salle électrique 0",
+      "Data Type": "BOOLEEN",
+      "name": "Salle électrique 0",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_4",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.1,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_4",
+      "Description": "Salle électrique 1",
+      "Data Type": "BOOLEEN",
+      "name": "Salle électrique 1",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_8",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.2,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_8",
+      "Description": "Salle électrique 2",
+      "Data Type": "BOOLEEN",
+      "name": "Salle électrique 2",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_11",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.3,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_11",
+      "Description": "Control Unit",
+      "Data Type": "BOOLEEN",
+      "name": "Control Unit",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_12",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.4,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_12",
+      "Description": "Mécanisme de levage 1 + 2 + mécanisme d'orientation",
+      "Data Type": "BOOLEEN",
+      "name": "Mécanisme de levage 1 + 2 + mécanisme d'orientation",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_13",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.5,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_13",
+      "Description": "Entraînement méc. levage 1",
+      "Data Type": "BOOLEEN",
+      "name": "Entraînement méc. levage 1",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_15",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.6,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_15",
+      "Description": "Résistance freinage 1",
+      "Data Type": "BOOLEEN",
+      "name": "Résistance freinage 1",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_17",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 12.7,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_17",
+      "Description": "Entraînement méc. levage 2",
+      "Data Type": "BOOLEEN",
+      "name": "Entraînement méc. levage 2",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_18",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.0,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_18",
+      "Description": "Entraînement méc. translation électrique",
+      "Data Type": "BOOLEEN",
+      "name": "Entraînement méc. translation électrique",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_19",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.1,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_19",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_20",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.2,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_20",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_21",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.3,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_21",
+      "Description": "Entraînement mécanisme d'orientation",
+      "Data Type": "BOOLEEN",
+      "name": "Entraînement mécanisme d'orientation",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_24",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.4,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_24",
+      "Description": "Cabine de tour",
+      "Data Type": "BOOLEEN",
+      "name": "Cabine de tour",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_25",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.5,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_25",
+      "Description": "Système anti-ballant",
+      "Data Type": "BOOLEEN",
+      "name": "Système anti-ballant",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_32",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.6,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_32",
+      "Description": "Châssis",
+      "Data Type": "BOOLEEN",
+      "name": "Châssis",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_36",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 13.7,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_36",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_44",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.0,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_44",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_48",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.1,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_48",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_53",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.2,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_53",
+      "Description": "Tambour à câble",
+      "Data Type": "BOOLEEN",
+      "name": "Tambour à câble",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_60",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.3,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_60",
+      "Description": "Bus ASI superstructure",
+      "Data Type": "BOOLEEN",
+      "name": "Bus ASI superstructure",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_61",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.4,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_61",
+      "Description": "Passerelle CAN superstructure",
+      "Data Type": "BOOLEEN",
+      "name": "Passerelle CAN superstructure",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_62",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.5,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_62",
+      "Description": "Passerelle CAN PowerCaps",
+      "Data Type": "BOOLEEN",
+      "name": "Passerelle CAN PowerCaps",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_63",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.6,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_63",
+      "Description": "CPU CEC",
+      "Data Type": "BOOLEEN",
+      "name": "CPU CEC",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_64",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 14.7,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_64",
+      "Description": "Salle électrique Safety",
+      "Data Type": "BOOLEEN",
+      "name": "Salle électrique Safety",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_69",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.0,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_69",
+      "Description": "Radiotélécommande",
+      "Data Type": "BOOLEEN",
+      "name": "Radiotélécommande",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_70",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.1,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_70",
+      "Description": "Passerelle CAN châssis",
+      "Data Type": "BOOLEEN",
+      "name": "Passerelle CAN châssis",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_85",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.2,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_85",
+      "Description": "EKS cabine de tour",
+      "Data Type": "BOOLEEN",
+      "name": "EKS cabine de tour",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_86",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.3,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_86",
+      "Description": "EKS superstructure",
+      "Data Type": "BOOLEEN",
+      "name": "EKS superstructure",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_90",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.4,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_90",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_93",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.5,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_93",
+      "Description": "Manipulateur à droite",
+      "Data Type": "BOOLEEN",
+      "name": "Manipulateur à droite",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_94",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.6,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_94",
+      "Description": "Manipulateur à gauche",
+      "Data Type": "BOOLEEN",
+      "name": "Manipulateur à gauche",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_95",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 15.7,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_95",
+      "Description": "11_P_B21 Absolute encoder",
+      "Data Type": "BOOLEEN",
+      "name": "11_P_B21 Absolute encoder",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_96",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 16.0,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_96",
+      "Description": "12_P_B21 Absolute encoder",
+      "Data Type": "BOOLEEN",
+      "name": "12_P_B21 Absolute encoder",
+      "unit": "null"
+    },
+    {
+      "Section": "dp diag bus dp_busfault slave_97",
+      "Address/Identifier": "DB376.DBX",
+      "OFSSET": 16.1,
+      "Tag Name": "DP DIAG Bus.DP_Busfault.Slave_97",
+      "Description": "Réserve",
+      "Data Type": "BOOLEEN",
+      "name": "Réserve",
+      "unit": "null"
+    },
+    {
+      "Section": "opc vi_act_pic",
+      "Address/Identifier": "DB108.DBW",
+      "OFSSET": 0,
+      "Tag Name": "OPC.Vi_act_pic",
+      "Description": "Message de l'écran transmis à la commande, correspond à l'état réel de l'écran",
+      "Data Type": "DEC",
+      "name": "Message de l'écran transmis à la commande",
+      "unit": "null"
+    },
+    {
+      "Section": "opc vi_set_pic",
+      "Address/Identifier": "DB108.DBW",
+      "OFSSET": 2,
+      "Tag Name": "OPC.Vi_set_pic",
+      "Description": "Appel d'écran à partir de la commande: état valeur de consigne de l'écran",
+      "Data Type": "DEC",
+      "name": "Appel d'écran à partir de la commande",
+      "unit": "null"
+    },
+    {
+      "Section": "retain oh_11_h_t_m",
+      "Address/Identifier": "DB106.DBD",
+      "OFSSET": 78,
+      "Tag Name": "RETAIN.OH_11_H_T_M",
+      "Description": "Compteur d'heures de service: heures jusqu'au prochain entretien",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Compteur d'heures de service",
+      "unit": "heures"
+    },
+    {
+      "Section": "retain oh_12_h",
+      "Address/Identifier": "DB106.DBD",
+      "OFSSET": 110,
+      "Tag Name": "RETAIN.OH_12_H",
+      "Description": "Compteur d'heures de service: heures",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Compteur d'heures de service",
+      "unit": "heures"
+    },
+    {
+      "Section": "retain oh_12_h_a_m",
+      "Address/Identifier": "DB106.DBD",
+      "OFSSET": 114,
+      "Tag Name": "RETAIN.OH_12_H_A_M",
+      "Description": "Compteur d'heures de service: heures depuis le dernier entretien",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Compteur d'heures de service",
+      "unit": "heures"
+    },
+    {
+      "Section": "retain oh_12_h_t_m",
+      "Address/Identifier": "DB106.DBD",
+      "OFSSET": 118,
+      "Tag Name": "RETAIN.OH_12_H_T_M",
+      "Description": "Compteur d'heures de service: heures jusqu'au prochain entretien",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Compteur d'heures de service",
+      "unit": "heures"
+    },
+    {
+      "Section": "retain oh_21_h",
+      "Address/Identifier": "DB106.DBD",
+      "OFSSET": 218,
+      "Tag Name": "RETAIN.OH_21_H",
+      "Description": "Compteur d'heures de service: heures",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Compteur d'heures de service",
+      "unit": "heures"
+    },
+    {
+      "Section": "vat 66 hoist gear",
+      "Address/Identifier": "DB104.DBX",
+      "OFSSET": 66.2,
+      "Tag Name": "vat 66 hoist gear",
+      "Description": "vat 66 hoist gear",
+      "Data Type": "BOOLEEN",
+      "name": "vat 66 hoist gear",
+      "unit": "null"
+    },
+    {
+      "Section": "vat 66 hoist gear",
+      "Address/Identifier": "DB104.DBX",
+      "OFSSET": 66.6,
+      "Tag Name": "vat 66 hoist gear",
+      "Description": "vat 66 hoist gear",
+      "Data Type": "BOOLEEN",
+      "name": "vat 66 hoist gear",
+      "unit": "null"
+    },
+    {
+      "Section": "var _41_en_travel",
+      "Address/Identifier": "DB104.DBX",
+      "OFSSET": 80.0,
+      "Tag Name": "VAR._41_EN_travel",
+      "Description": "Validation: méc. translation électrique",
+      "Data Type": "BOOLEEN",
+      "name": "Validation",
+      "unit": "null"
+    },
+    {
+      "Section": "var _41_en_storm_pin",
+      "Address/Identifier": "DB104.DBX",
+      "OFSSET": 80.1,
+      "Tag Name": "VAR._41_EN_storm_pin",
+      "Description": "Validation: broche anti-tempête",
+      "Data Type": "BOOLEEN",
+      "name": "Validation",
+      "unit": "null"
+    },
+    {
+      "Section": "var _41_en_ultrasonic_sensor",
+      "Address/Identifier": "DB104.DBX",
+      "OFSSET": 80.2,
+      "Tag Name": "VAR._41_EN_ultrasonic_sensor",
+      "Description": "Validation: capteurs Sonar",
+      "Data Type": "BOOLEEN",
+      "name": "Validation",
+      "unit": "null"
+    },
+    {
+      "Section": "var _41_en_buffer_switches",
+      "Address/Identifier": "DB104.DBX",
+      "OFSSET": 80.3,
+      "Tag Name": "VAR._41_EN_buffer_switches",
+      "Description": "Validation: fin de course tampon",
+      "Data Type": "BOOLEEN",
+      "name": "Validation",
+      "unit": "null"
+    },
+    {
+      "Section": "typ _04_press_2_rmax_bar",
+      "Address/Identifier": "DB103.DBD",
+      "OFSSET": 174.0,
+      "Tag Name": "TYP._04_Press_2_Rmax_bar",
+      "Description": "Valeur pression pr niv. de press.2 en bars lors relev. flèche en portée maxi",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeur pression pr niv. de press.2",
+      "unit": "bar"
+    },
+    {
+      "Section": "typ _04_press_3_rmin_bar",
+      "Address/Identifier": "DB103.DBD",
+      "OFSSET": 178.0,
+      "Tag Name": "TYP._04_Press_3_Rmin_bar",
+      "Description": "Valeur pression pr niv. de press.3 en bars lors abaiss. flèche en portée mini",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeur pression pr niv. de press.3",
+      "unit": "bar"
+    },
+    {
+    "Section": "value _01_power_kw_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 0,
+    "Tag Name": "VALUE._01_Power_kW_R",
+    "Description": "Puissance en kW",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Puissance",
+    "unit": "kW"
+  },
+  {
+    "Section": "value _02_measured_power_kw_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 4,
+    "Tag Name": "VALUE._02_Measured_power_kW_R",
+    "Description": "Puissance mesurée en kW",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Puissance mesurée",
+    "unit": "kW"
+  },
+  {
+    "Section": "value _03_braking_rectifier_network_voltage_v_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 54,
+    "Tag Name": "VALUE._03_Braking_rectifier_network_voltage_V_R",
+    "Description": "Tension du réseau du redresseur de freinage",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Tension du réseau du redresseur de freinage",
+    "unit": "V"
+  },
+  {
+    "Section": "value _04_network_frequency_hz_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 58,
+    "Tag Name": "VALUE._04_Network_frequency_Hz_R",
+    "Description": "Fréquence du réseau",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Fréquence du réseau",
+    "unit": "Hz"
+  },
+  {
+    "Section": "value _05_reduced_setpoint_hydraulic_pump_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 82,
+    "Tag Name": "VALUE._05_Reduced_setpoint_hydraulic_pump_percent_R",
+    "Description": "Consigne réduite pour pompe hydraulique",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne réduite pour pompe hydraulique",
+    "unit": "%"
+  },
+  {
+    "Section": "value _06_hydraulic_pump_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 94,
+    "Tag Name": "VALUE._06_Hydraulic_pump_setpoint_percent_R",
+    "Description": "Consigne pompe hydraulique",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne pompe hydraulique",
+    "unit": "%"
+  },
+  {
+    "Section": "value _07_hydraulic_system_temperature_degc_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 98,
+    "Tag Name": "VALUE._07_Hydraulic_system_temperature_degC_R",
+    "Description": "Température système hydraulique",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Température système hydraulique",
+    "unit": "°C"
+  },
+  {
+    "Section": "value _08_actual_pump_pressure_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 102,
+    "Tag Name": "VALUE._08_Actual_pump_pressure_bar_R",
+    "Description": "Pression réelle de la pompe",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression réelle de la pompe",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _09_diesel_fuel_tank_fill_level_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 122,
+    "Tag Name": "VALUE._09_Diesel_fuel_tank_fill_level_percent_R",
+    "Description": "Niveau de carburant diesel",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Niveau de carburant diesel",
+    "unit": "%"
+  },
+  {
+    "Section": "value _10_reduce_speed_setpoint_power_reduction_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 182,
+    "Tag Name": "VALUE._10_Reduce_speed_setpoint_power_reduction_percent_R",
+    "Description": "Réduction de vitesse par réduction de puissance",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Réduction de vitesse par réduction de puissance",
+    "unit": "%"
+  },
+  {
+    "Section": "value _11_calculate_speed_setpoint_hoist_load_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 186,
+    "Tag Name": "VALUE._11_Calculate_speed_setpoint_hoist_load_percent_R",
+    "Description": "Calculer la consigne de vitesse mécanisme de levage selon charge",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calculer consigne vitesse mécanisme levage",
+    "unit": "%"
+  },
+  {
+    "Section": "value _12_apply_end_of_travel_value_command_steps_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 190,
+    "Tag Name": "VALUE._12_Apply_end_of_travel_value_command_steps_percent_R",
+    "Description": "Appliquer la valeur de fin de course et la commande par paliers",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Appliquer valeur fin de course et commande par paliers",
+    "unit": "%"
+  },
+  {
+    "Section": "value _13_hoist_target_point_reduced_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 202,
+    "Tag Name": "VALUE._13_Hoist_target_point_reduced_setpoint_percent_R",
+    "Description": "Levage vers point cible avec consigne réduite",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Levage vers point cible avec consigne réduite",
+    "unit": "%"
+  },
+  {
+    "Section": "value _14_setpoint_transmission_drive_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 206,
+    "Tag Name": "VALUE._14_Setpoint_transmission_drive_percent_R",
+    "Description": "Transmission de la consigne au variateur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Transmission de la consigne au variateur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _15_actual_speed_rpm_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 218,
+    "Tag Name": "VALUE._15_Actual_speed_rpm_R",
+    "Description": "Vitesse réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse réelle",
+    "unit": "rpm"
+  },
+  {
+    "Section": "value _16_actual_current_a_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 222,
+    "Tag Name": "VALUE._16_Actual_current_A_R",
+    "Description": "Courant réel",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Courant réel",
+    "unit": "A"
+  },
+  {
+    "Section": "value _17_actual_power_kw_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 226,
+    "Tag Name": "VALUE._17_Actual_power_kW_R",
+    "Description": "Puissance réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Puissance réelle",
+    "unit": "kW"
+  },
+  {
+    "Section": "value _18_actual_motor_voltage_v_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 230,
+    "Tag Name": "VALUE._18_Actual_motor_voltage_V_R",
+    "Description": "Tension moteur réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Tension moteur réelle",
+    "unit": "V"
+  },
+  {
+    "Section": "value _19_actual_mains_frequency_hz_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 234,
+    "Tag Name": "VALUE._19_Actual_mains_frequency_Hz_R",
+    "Description": "Fréquence réseau réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Fréquence réseau réelle",
+    "unit": "Hz"
+  },
+  {
+    "Section": "value _20_actual_motor_temperature_degc_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 242,
+    "Tag Name": "VALUE._20_Actual_motor_temperature_degC_R",
+    "Description": "Température moteur réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Température moteur réelle",
+    "unit": "°C"
+  },
+  {
+    "Section": "value _21_actual_lifting_height_m_absolute_encoder_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 250,
+    "Tag Name": "VALUE._21_Actual_lifting_height_m_absolute_encoder_R",
+    "Description": "Hauteur de levage réelle (encodeur absolu)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Hauteur de levage réelle (encodeur absolu)",
+    "unit": "m"
+  },
+  {
+    "Section": "value _22_service_pressure_hoist_brake_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 262,
+    "Tag Name": "VALUE._22_Service_pressure_hoist_brake_bar_R",
+    "Description": "Pression de service frein mécanisme levage",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression de service frein mécanisme levage",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _23_hoist_mechanism_permissible_speed_m_per_min_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 270,
+    "Tag Name": "VALUE._23_Hoist_mechanism_permissible_speed_m_per_min_R",
+    "Description": "Vitesse admissible mécanisme levage",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse admissible mécanisme levage",
+    "unit": "m/min"
+  },
+  {
+    "Section": "value _24_hoist_mechanism_gearbox_oil_temperature_degc_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 280,
+    "Tag Name": "VALUE._24_Hoist_mechanism_gearbox_oil_temperature_degC_R",
+    "Description": "Température huile boîte de vitesses mécanisme levage",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Température huile boîte de vitesses mécanisme levage",
+    "unit": "°C"
+  },
+  {
+    "Section": "value _25_hoist_mechanism_permissible_speed_rpm_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 312,
+    "Tag Name": "VALUE._25_Hoist_mechanism_permissible_speed_rpm_R",
+    "Description": "Vitesse admissible mécanisme levage",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse admissible mécanisme levage",
+    "unit": "rpm"
+  },
+  {
+    "Section": "value _26_hoist_setpoint_manipulator_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 316,
+    "Tag Name": "VALUE._26_Hoist_setpoint_manipulator_percent_R",
+    "Description": "Consigne levage via manipulateur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne levage via manipulateur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _27_order_read_adjust_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 326,
+    "Tag Name": "VALUE._27_Order_read_adjust_setpoint_percent_R",
+    "Description": "Ordre : lecture et ajustement de la consigne",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Ordre : lecture et ajustement de la consigne",
+    "unit": "%"
+  },
+  {
+    "Section": "value _28_setpoint_transmission_drive_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 330,
+    "Tag Name": "VALUE._28_Setpoint_transmission_drive_percent_R",
+    "Description": "Transmission de la consigne au variateur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Transmission de la consigne au variateur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _29_actual_lifting_height_m_absolute_encoder_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 378,
+    "Tag Name": "VALUE._29_Actual_lifting_height_m_absolute_encoder_R",
+    "Description": "Hauteur de levage réelle (encodeur absolu)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Hauteur de levage réelle (encodeur absolu)",
+    "unit": "m"
+  },
+  {
+    "Section": "value _30_service_pressure_closing_mechanism_brake_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 390,
+    "Tag Name": "VALUE._30_Service_pressure_closing_mechanism_brake_bar_R",
+    "Description": "Pression de service frein mécanisme fermeture",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression de service frein mécanisme fermeture",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _31_order_read_adjust_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 464,
+    "Tag Name": "VALUE._31_Order_read_adjust_setpoint_percent_R",
+    "Description": "Ordre : lecture et ajustement de la consigne",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Ordre : lecture et ajustement de la consigne",
+    "unit": "%"
+  },
+  {
+    "Section": "value _32_calculate_slew_speed_outreach_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 472,
+    "Tag Name": "VALUE._32_Calculate_slew_speed_outreach_percent_R",
+    "Description": "Calculer la consigne de vitesse rotation selon portée",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calculer consigne de vitesse rotation selon portée",
+    "unit": "%"
+  },
+  {
+    "Section": "value _33_setpoint_transmission_drive_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 476,
+    "Tag Name": "VALUE._33_Setpoint_transmission_drive_percent_R",
+    "Description": "Transmission de la consigne au variateur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Transmission de la consigne au variateur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _34_actual_speed_rpm_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 496,
+    "Tag Name": "VALUE._34_Actual_speed_rpm_R",
+    "Description": "Vitesse réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse réelle",
+    "unit": "rpm"
+  },
+  {
+    "Section": "value _35_actual_current_a_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 500,
+    "Tag Name": "VALUE._35_Actual_current_A_R",
+    "Description": "Courant réel",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Courant réel",
+    "unit": "A"
+  },
+  {
+    "Section": "value _36_actual_motor_voltage_v_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 508,
+    "Tag Name": "VALUE._36_Actual_motor_voltage_V_R",
+    "Description": "Tension moteur réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Tension moteur réelle",
+    "unit": "V"
+  },
+  {
+    "Section": "value _37_actual_motor_temperature_degc_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 512,
+    "Tag Name": "VALUE._37_Actual_motor_temperature_degC_R",
+    "Description": "Température moteur réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Température moteur réelle",
+    "unit": "°C"
+  },
+  {
+    "Section": "value _38_actual_slewing_angle_superstructure_chassis_deg_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 516,
+    "Tag Name": "VALUE._38_Actual_slewing_angle_superstructure_chassis_deg_R",
+    "Description": "Angle de rotation réel châssis superstructure",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Angle de rotation réel châssis superstructure",
+    "unit": "degrés"
+  },
+  {
+    "Section": "value _39_actual_acceleration_time_seconds_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 520,
+    "Tag Name": "VALUE._39_Actual_acceleration_time_seconds_R",
+    "Description": "Temps d'accélération réel",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Temps d'accélération réel",
+    "unit": "secondes"
+  },
+  {
+    "Section": "value _40_motor_speed_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 528,
+    "Tag Name": "VALUE._40_Motor_speed_setpoint_percent_R",
+    "Description": "Consigne vitesse moteur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne vitesse moteur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _41_maximum_crane_speed_rpm_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 532,
+    "Tag Name": "VALUE._41_Maximum_crane_speed_rpm_R",
+    "Description": "Vitesse maximale grue",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse maximale grue",
+    "unit": "rpm"
+  },
+  {
+    "Section": "value _42_reduced_maximum_peripheral_speed_m_per_min_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 538,
+    "Tag Name": "VALUE._42_Reduced_maximum_peripheral_speed_m_per_min_R",
+    "Description": "Vitesse périphérique maximale réduite",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse périphérique maximale réduite",
+    "unit": "m/min"
+  },
+  {
+    "Section": "value _43_reduced_maximum_slew_speed_rpm_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 542,
+    "Tag Name": "VALUE._43_Reduced_maximum_slew_speed_rpm_R",
+    "Description": "Vitesse de rotation maximale réduite",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse de rotation maximale réduite",
+    "unit": "rpm"
+  },
+  {
+    "Section": "value _44_slew_setpoint_manipulator_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 578,
+    "Tag Name": "VALUE._44_Slew_setpoint_manipulator_percent_R",
+    "Description": "Consigne rotation via manipulateur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne rotation via manipulateur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _45_boom_raising_calculate_permissible_outreach_m_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 592,
+    "Tag Name": "VALUE._45_Boom_raising_calculate_permissible_outreach_m_R",
+    "Description": "Calcul portée admissible levage flèche",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calcul portée admissible levage flèche",
+    "unit": "m"
+  },
+  {
+    "Section": "value _46_boom_lowering_calculate_permissible_outreach_m_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 596,
+    "Tag Name": "VALUE._46_Boom_lowering_calculate_permissible_outreach_m_R",
+    "Description": "Calcul portée admissible descente flèche",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calcul portée admissible descente flèche",
+    "unit": "m"
+  },
+  {
+    "Section": "value _47_actual_luffing_cylinder_speed_mm_per_s_or_m_per_min_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 640,
+    "Tag Name": "VALUE._47_Actual_luffing_cylinder_speed_mm_per_s_or_m_per_min_R",
+    "Description": "Vitesse réelle vérin de flèche",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse réelle vérin de flèche",
+    "unit": "mm/s ou m/min"
+  },
+  {
+    "Section": "value _48_outreach_m_absolute_encoder_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 652,
+    "Tag Name": "VALUE._48_Outreach_m_absolute_encoder_R",
+    "Description": "Portée (encodeur absolu)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Portée (encodeur absolu)",
+    "unit": "m"
+  },
+  {
+    "Section": "value _49_luffing_setpoint_manipulator_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 664,
+    "Tag Name": "VALUE._49_Luffing_setpoint_manipulator_percent_R",
+    "Description": "Consigne flèche via manipulateur",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne flèche via manipulateur",
+    "unit": "%"
+  },
+  {
+    "Section": "value _50_pressure_luffing_piston_side_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 674,
+    "Tag Name": "VALUE._50_Pressure_luffing_piston_side_bar_R",
+    "Description": "Pression côté piston vérin de flèche",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression côté piston vérin de flèche",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _51_travel_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 678,
+    "Tag Name": "VALUE._51_Travel_setpoint_percent_R",
+    "Description": "Consigne déplacement",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne déplacement",
+    "unit": "%"
+  },
+  {
+    "Section": "value _52_frequency_setpoint_hz_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 682,
+    "Tag Name": "VALUE._52_Frequency_setpoint_Hz_R",
+    "Description": "Consigne fréquence",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Consigne fréquence",
+    "unit": "Hz"
+  },
+  {
+    "Section": "value _53_actual_speed_rpm_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 686,
+    "Tag Name": "VALUE._53_Actual_speed_rpm_R",
+    "Description": "Vitesse réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse réelle",
+    "unit": "rpm"
+  },
+  {
+    "Section": "value _54_actual_current_a_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 694,
+    "Tag Name": "VALUE._54_Actual_current_A_R",
+    "Description": "Courant réel",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Courant réel",
+    "unit": "A"
+  },
+  {
+    "Section": "value _55_intermediate_circuit_voltage_v_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 698,
+    "Tag Name": "VALUE._55_Intermediate_circuit_voltage_V_R",
+    "Description": "Tension circuit intermédiaire",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Tension circuit intermédiaire",
+    "unit": "V"
+  },
+  {
+    "Section": "value _56_output_voltage_v_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 702,
+    "Tag Name": "VALUE._56_Output_voltage_V_R",
+    "Description": "Tension de sortie",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Tension de sortie",
+    "unit": "V"
+  },
+  {
+    "Section": "value _57_order_read_adjust_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 710,
+    "Tag Name": "VALUE._57_Order_read_adjust_setpoint_percent_R",
+    "Description": "Ordre : lecture et ajustement de la consigne",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Ordre : lecture et ajustement de la consigne",
+    "unit": "%"
+  },
+  {
+    "Section": "value _58_order_read_adjust_setpoint_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 714,
+    "Tag Name": "VALUE._58_Order_read_adjust_setpoint_percent_R",
+    "Description": "Ordre : lecture et ajustement de la consigne",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Ordre : lecture et ajustement de la consigne",
+    "unit": "%"
+  },
+  {
+    "Section": "value _59_calibration_angle_x_axis_deg_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 860,
+    "Tag Name": "VALUE._59_Calibration_angle_X_axis_deg_R",
+    "Description": "Calibration : angle axe X",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calibration : angle axe X",
+    "unit": "degrés"
+  },
+  {
+    "Section": "value _60_calibration_angle_y_axis_deg_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 864,
+    "Tag Name": "VALUE._60_Calibration_angle_Y_axis_deg_R",
+    "Description": "Calibration : angle axe Y",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calibration : angle axe Y",
+    "unit": "degrés"
+  },
+  {
+    "Section": "value _61_calibration_angle_x_axis_deg_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 868,
+    "Tag Name": "VALUE._61_Calibration_angle_X_axis_deg_R",
+    "Description": "Calibration : angle axe X",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calibration : angle axe X",
+    "unit": "degrés"
+  },
+  {
+    "Section": "value _62_calibration_angle_y_axis_deg_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 872,
+    "Tag Name": "VALUE._62_Calibration_angle_Y_axis_deg_R",
+    "Description": "Calibration : angle axe Y",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Calibration : angle axe Y",
+    "unit": "degrés"
+  },
+  {
+    "Section": "value _63_actual_wind_speed_m_per_s_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 892,
+    "Tag Name": "VALUE._63_Actual_wind_speed_m_per_s_R",
+    "Description": "Vitesse du vent réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Vitesse du vent réelle",
+    "unit": "m/s"
+  },
+  {
+    "Section": "value _64_gross_load_tonnes_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 902,
+    "Tag Name": "VALUE._64_Gross_load_tonnes_R",
+    "Description": "Charge totale",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Charge totale",
+    "unit": "tonnes"
+  },
+  {
+    "Section": "value _65_net_load_tonnes_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 910,
+    "Tag Name": "VALUE._65_Net_load_tonnes_R",
+    "Description": "Charge nette",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Charge nette",
+    "unit": "tonnes"
+  },
+  {
+    "Section": "value _66_permitted_gross_load_tonnes_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 926,
+    "Tag Name": "VALUE._66_Permitted_gross_load_tonnes_R",
+    "Description": "Charge totale autorisée",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Charge totale autorisée",
+    "unit": "tonnes"
+  },
+  {
+    "Section": "value _67_outreach_meters_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 938,
+    "Tag Name": "VALUE._67_Outreach_meters_R",
+    "Description": "Portée",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Portée",
+    "unit": "mètres"
+  },
+  {
+    "Section": "value _68_relative_gross_load_percent_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 946,
+    "Tag Name": "VALUE._68_Relative_gross_load_percent_R",
+    "Description": "Charge totale relative",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Charge totale relative",
+    "unit": "%"
+  },
+  {
+    "Section": "value _69_hoist_load_spectrum_counter_unitless_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 958,
+    "Tag Name": "VALUE._69_Hoist_load_spectrum_counter_unitless_R",
+    "Description": "Compteur spectre de charge levage",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Compteur spectre de charge levage",
+    "unit": "sans unité"
+  },
+  {
+    "Section": "value _70_cec_indicator_test_mode_actual_load_tonnes_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1020,
+    "Tag Name": "VALUE._70_CEC_indicator_test_mode_actual_load_tonnes_R",
+    "Description": "Indicateur CEC, mode test : charge réelle",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Indicateur CEC, mode test : charge réelle",
+    "unit": "tonnes"
+  },
+  {
+    "Section": "value _71_permitted_outreach_boom_raise_no_limit_calc1_m_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1268,
+    "Tag Name": "VALUE._71_Permitted_outreach_boom_raise_no_limit_calc1_m_R",
+    "Description": "Portée admissible levage flèche sans limitation, calcul 1",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Portée admissible levage flèche sans limitation, calcul 1",
+    "unit": "m"
+  },
+  {
+    "Section": "value _72_permitted_outreach_boom_raise_no_limit_calc2_m_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1292,
+    "Tag Name": "VALUE._72_Permitted_outreach_boom_raise_no_limit_calc2_m_R",
+    "Description": "Portée admissible levage flèche sans limitation, calcul 2",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Portée admissible levage flèche sans limitation, calcul 2",
+    "unit": "m"
+  },
+  {
+    "Section": "value _73_hex_value_r",
+    "Address/Identifier": "DB102.DBW",
+    "OFSSET": 1314,
+    "Tag Name": "VALUE._73_Hex_Value_R",
+    "Description": "Valeur hexadécimale",
+    "Data Type": "HEXA",
+    "name": "Valeur hexadécimale",
+    "unit": "null"
+  },
+  {
+    "Section": "value _74_pressure_1_front_right_side_piston_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1316,
+    "Tag Name": "VALUE._74_Pressure_1_front_right_side_piston_bar_R",
+    "Description": "Pression 1 côté avant droit (piston)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 1 côté avant droit (piston)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _75_pressure_1_front_right_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1320,
+    "Tag Name": "VALUE._75_Pressure_1_front_right_side_rod_bar_R",
+    "Description": "Pression 1 côté avant droit (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 1 côté avant droit (tige)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _76_pressure_1_rear_right_side_piston_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1324,
+    "Tag Name": "VALUE._76_Pressure_1_rear_right_side_piston_bar_R",
+    "Description": "Pression 1 côté arrière droit (piston)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 1 côté arrière droit (piston)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _77_pressure_1_rear_right_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1328,
+    "Tag Name": "VALUE._77_Pressure_1_rear_right_side_rod_bar_R",
+    "Description": "Pression 1 côté arrière droit (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 1 côté arrière droit (tige)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _78_pressure_1_rear_left_side_piston_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1332,
+    "Tag Name": "VALUE._78_Pressure_1_rear_left_side_piston_bar_R",
+    "Description": "Pression 1 côté arrière gauche (piston)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 1 côté arrière gauche (piston)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _79_pressure_1_rear_left_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1336,
+    "Tag Name": "VALUE._79_Pressure_1_rear_left_side_rod_bar_R",
+    "Description": "Pression 1 côté arrière gauche (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 1 côté arrière gauche (tige)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _80_pressure_2_front_left_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1344,
+    "Tag Name": "VALUE._80_Pressure_2_front_left_side_rod_bar_R",
+    "Description": "Pression 2 côté avant gauche (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté avant gauche (tige)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _81_pressure_2_front_right_side_piston_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1348,
+    "Tag Name": "VALUE._81_Pressure_2_front_right_side_piston_bar_R",
+    "Description": "Pression 2 côté avant droit (piston)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté avant droit (piston)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _82_pressure_2_front_right_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1352,
+    "Tag Name": "VALUE._82_Pressure_2_front_right_side_rod_bar_R",
+    "Description": "Pression 2 côté avant droit (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté avant droit (tige)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _83_pressure_2_rear_right_side_piston_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1356,
+    "Tag Name": "VALUE._83_Pressure_2_rear_right_side_piston_bar_R",
+    "Description": "Pression 2 côté arrière droit (piston)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté arrière droit (piston)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _84_pressure_2_rear_right_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1360,
+    "Tag Name": "VALUE._84_Pressure_2_rear_right_side_rod_bar_R",
+    "Description": "Pression 2 côté arrière droit (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté arrière droit (tige)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _85_pressure_2_rear_left_side_piston_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1364,
+    "Tag Name": "VALUE._85_Pressure_2_rear_left_side_piston_bar_R",
+    "Description": "Pression 2 côté arrière gauche (piston)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté arrière gauche (piston)",
+    "unit": "bar"
+  },
+  {
+    "Section": "value _86_pressure_2_rear_left_side_rod_bar_r",
+    "Address/Identifier": "DB102.DBD",
+    "OFSSET": 1368,
+    "Tag Name": "VALUE._86_Pressure_2_rear_left_side_rod_bar_R",
+    "Description": "Pression 2 côté arrière gauche (tige)",
+    "Data Type": "VIRGULE_FLOTTANTE",
+    "name": "Pression 2 côté arrière gauche (tige)",
+    "unit": "bar"
+  },
+    {
+      "Section": "sli plc_31_angle_boom_deg_r",
+      "Address/Identifier": "DB101.DBD",
+      "OFSSET": 132.0,
+      "Tag Name": "SLI.PLC_31_Angle_boom_DEG_R",
+      "Description": "Angle de la flèche, unité en degrés 0 - 90 degrés",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Angle de la flèche",
+      "unit": "degrés"
+    },
+    {
+      "Section": "sli sli_63_perm_bruttoload_r",
+      "Address/Identifier": "DB101.DBD",
+      "OFSSET": 70.0,
+      "Tag Name": "SLI.SLI_63_Perm_Bruttoload_R",
+      "Description": "CEC: charge brute admissible en tonnes",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "CEC",
+      "unit": "tonnes"
+    },
+    {
+      "Section": "sli plc_sli_test_bit_no_i",
+      "Address/Identifier": "DB101.DBW",
+      "OFSSET": 2.0,
+      "Tag Name": "SLI.PLC_SLI_test_bit_No_I",
+      "Description": "Test entrées et sorties vers CEC, valeurs 1 à 8 (possible uniquement dans API)",
+      "Data Type": "DEC",
+      "name": "Test entrées et sorties vers CEC",
+      "unit": "null"
+    },
+    {
+      "Section": "sli plc_sli_test_en",
+      "Address/Identifier": "DB101.DBX",
+      "OFSSET": 0.1,
+      "Tag Name": "SLI.PLC_SLI_test_EN",
+      "Description": "Connexion test CEC pour les courbes de charge (possible uniquement dans l?API)",
+      "Data Type": "BOOLEEN",
+      "name": "Connexion test CEC",
+      "unit": "null"
+    },
+    {
+      "Section": "sli _11_set_1",
+      "Address/Identifier": "DB101.DBX",
+      "OFSSET": 106.0,
+      "Tag Name": "SLI._11_SET_1",
+      "Description": "Enregistrer test de charge 1 (réglage 0 tonne = crochet vide)",
+      "Data Type": "BOOLEEN",
+      "name": "Enregistrer test de charge 1 (réglage 0 tonne = crochet vide)",
+      "unit": "null"
+    },
+    {
+      "Section": "sli _11_set_2",
+      "Address/Identifier": "DB101.DBX",
+      "OFSSET": 106.1,
+      "Tag Name": "SLI._11_SET_2",
+      "Description": "Enregistrer test de charge 2 (ajustement pour charge maximale)",
+      "Data Type": "BOOLEEN",
+      "name": "Enregistrer test de charge 2 (ajustement pour charge maximale)",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x1_max_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 394.0,
+      "Tag Name": "IBS._04_X1_MAX_POS",
+      "Description": "Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = YMAXP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne pompe hydraulique ppale",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x1_min_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 398.0,
+      "Tag Name": "IBS._04_X1_MIN_NEG",
+      "Description": "Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = YMINN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne pompe hydraulique ppale",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x1_max_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 402.0,
+      "Tag Name": "IBS._04_X1_MAX_NEG",
+      "Description": "Valeurs de consigne pompe hydraulique ppale: var. de volée rapide = YMAXN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne pompe hydraulique ppale",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _31_x1_min_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 422.0,
+      "Tag Name": "IBS._31_X1_MIN_POS",
+      "Description": "Valeurs cons. soupape d'étranglement: variation de volée rapide: YMINP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs cons. soupape d'étranglement",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x3_max_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 542.0,
+      "Tag Name": "IBS._04_X3_MAX_POS",
+      "Description": "Valeurs cons. pompe hydr: variation de volée lente: YMAXP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs cons. pompe hydr",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x3_min_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 546.0,
+      "Tag Name": "IBS._04_X3_MIN_NEG",
+      "Description": "Valeurs cons. pompe hydr: variation de volée lente: YMINN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs cons. pompe hydr",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x3_max_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 550.0,
+      "Tag Name": "IBS._04_X3_MAX_NEG",
+      "Description": "Valeurs cons. pompe hydr: variation de volée lente: YMAXN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs cons. pompe hydr",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _31_x3_min_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 570.0,
+      "Tag Name": "IBS._31_X3_MIN_POS",
+      "Description": "Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: YMINP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Sollwerte Drosselventil Wippzylinder",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _31_x3_max_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 574.0,
+      "Tag Name": "IBS._31_X3_MAX_POS",
+      "Description": "Sollwerte Drosselventil Wippzylinder: langsame Wippstufe: YMAXP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Sollwerte Drosselventil Wippzylinder",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x5_max_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 754.0,
+      "Tag Name": "IBS._04_X5_MAX_NEG",
+      "Description": "Valeurs de cons. pompe hydraul. ppale pour méc. translation rapide: YMAXN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de cons. pompe hydraul. ppale",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _42_x1_min_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 774.0,
+      "Tag Name": "IBS._42_X1_MIN_POS",
+      "Description": "Valeurs de consigne pour la soupape de translation rapide: YMINP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _42_x1_max_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 778.0,
+      "Tag Name": "IBS._42_X1_MAX_POS",
+      "Description": "Valeurs de consigne pour la soupape de translation rapide: YMAXP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _42_x1_min_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 782.0,
+      "Tag Name": "IBS._42_X1_MIN_NEG",
+      "Description": "Valeurs de consigne pour la soupape de translation rapide: YMINN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_stabilizer_setpoint",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1358.0,
+      "Tag Name": "IBS._04_stabilizer_setpoint",
+      "Description": "Valeurs de consigne fixes de la pompe hydraulique principale pour les calages",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne fixes de la pompe hydraulique principale",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_stab_setpoint_manual",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1362.0,
+      "Tag Name": "IBS._04_stab_setpoint_manual",
+      "Description": "Valeurs de consigne fixes de la pompe hydr.princip.pour calages en mode manuel",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de consigne fixes de la pompe hydr.princip.pour calages en mode manuel",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x8_min_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1376.0,
+      "Tag Name": "IBS._04_X8_MIN_POS",
+      "Description": "Valeurs de cons. pompe hydr. pour calage: YMINP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de cons. pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x8_max_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1380.0,
+      "Tag Name": "IBS._04_X8_MAX_POS",
+      "Description": "Valeurs de cons. pompe hydr. pour calage: YMAXP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de cons. pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x8_min_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1384.0,
+      "Tag Name": "IBS._04_X8_MIN_NEG",
+      "Description": "Valeurs de cons. pompe hydr. pour calage: YMINN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de cons. pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_x8_max_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1388.0,
+      "Tag Name": "IBS._04_X8_MAX_NEG",
+      "Description": "Valeurs de cons. pompe hydr. pour calage: YMAXN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Valeurs de cons. pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_t8_up_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1392.0,
+      "Tag Name": "IBS._04_T8_UP_POS",
+      "Description": "Rampes pompe hydr. pour calage: TUP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Rampes pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_t8_down_pos",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1396.0,
+      "Tag Name": "IBS._04_T8_DOWN_POS",
+      "Description": "Rampes pompe hydr. pour calage: TDP",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Rampes pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_t8_up_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1400.0,
+      "Tag Name": "IBS._04_T8_UP_NEG",
+      "Description": "Rampes pompe hydr. pour calage: TUN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Rampes pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _04_t8_down_neg",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1404.0,
+      "Tag Name": "IBS._04_T8_DOWN_NEG",
+      "Description": "Rampes pompe hydr. pour calage: TDN",
+      "Data Type": "VIRGULE_FLOTTANTE",
+      "name": "Rampes pompe hydr.",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _62_lift_jack_cyl_t",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1408.0,
+      "Tag Name": "IBS._62_Lift_jack_cyl_T",
+      "Description": "Mode automatique: relever les patin de calage",
+      "Data Type": "DUREE",
+      "name": "Mode automatique",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _62_prop_jack_cyl_t",
+      "Address/Identifier": "DB100.DBD",
+      "OFSSET": 1412.0,
+      "Tag Name": "IBS._62_Prop_jack_cyl_T",
+      "Description": "Mode automatique: descendre les patin de calage",
+      "Data Type": "DUREE",
+      "name": "Mode automatique",
+      "unit": "null"
+    },
+    {
+      "Section": "ibs _63_calibration_load",
+      "Address/Identifier": "DB100.DBW",
+      "OFSSET": 1474.0,
+      "Tag Name": "IBS._63_calibration_load",
+      "Description": "Charge maxi pour ajustement CEC en tonnes",
+      "Data Type": "DEC",
+      "name": "Charge maxi",
+      "unit": "tonnes"
+    }
+  ]
+}

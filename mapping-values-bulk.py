@@ -11,13 +11,26 @@ import time
 from datetime import datetime
 from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
+from influxdb_insert import insert_values_to_influxdb
+from sql_server_insert import insert_values_to_sql_server
+import pyodbc
 
 # ----------- Configuration ----------- #
 PLC_IP = "192.0.0.2"
 RACK = 0
 SLOT = 0
-CONFIG_FILE = "DBs_configurations/outnew.json"  # Using the single consolidated file
+CONFIG_FILE = "DBs_configurations/dbsConfig.json"  # Using the single consolidated file
 DLL_PATH = os.path.abspath("snap7.dll")
+token = os.environ.get("INFLUXDB_TOKEN", "1BOz9P_KlFRxnVx_F-vAKLif9EKCN4atknuxDSPCnSRhA_7Um1OjZR4AIBbHOTMd1ES0xs1uV05NbrbwG-pRsw==")
+influx_client = InfluxDBClient(url="http://localhost:8086", token=token, org="plc")
+conn_str = (
+                r'DRIVER={ODBC Driver 17 for SQL Server};'
+                r'SERVER=YOUR_SERVER_NAME;' # e.g., 'localhost' or 'SERVER\SQLEXPRESS'
+                r'DATABASE=YOUR_DATABASE_NAME;'
+                r'Trusted_Connection=yes;'
+            )
+sql_connection = pyodbc.connect(conn_str)
+
 
 
 # ----------- DLL Load ----------- #
@@ -95,57 +108,6 @@ def load_and_group_config(file_path):
 
     print(f"✅ Processed and grouped configuration for {len(grouped_configs)} unique DBs.")
     return grouped_configs
-
-
-def insert_values_to_influxdb(extracted_values, config, influx_client, bucket, org):
-    """
-    Constructs and writes data points to InfluxDB using datetime.utcnow() for timestamps.
-    """
-    write_api = influx_client.write_api(write_options=SYNCHRONOUS)
-    db_number = config.get("db_number")
-    db_name = config.get("data_block_name", f"DB{db_number}")
-
-    if not influx_client.ping():
-        print("❌ Cannot reach InfluxDB – check connection details")
-        logging.error("Cannot reach InfluxDB – check connection details.")
-        return
-
-    utcnow = datetime.utcnow()
-    points = []
-    
-    for offset, data in extracted_values.items():
-        value = data.get("value")
-        if value is None:
-            continue
-
-        symbol = data.get("symbol", f"Offset_{offset}")
-
-        if isinstance(value, bool):
-            field_value = value
-        elif isinstance(value, (int, float)):
-            field_value = float(value)
-        else:
-            field_value = str(value)
-        
-        point = (
-            Point("plc_data")
-            .tag("db_name", db_name)
-            .tag("symbol", symbol)
-            .field("value", field_value)
-            .time(utcnow, WritePrecision.NS)
-        )
-        points.append(point)
-
-    if not points:
-        print(f"⚠️  No data to write for {db_name}, skipping InfluxDB write")
-        return
-
-    try:
-        write_api.write(bucket=bucket, org=org, record=points)
-        print(f"✅ Wrote {len(points)} points for {db_name} to InfluxDB at {utcnow.isoformat()}Z")
-    except Exception as e:
-        print(f"❌ Error writing to InfluxDB: {e}")
-        logging.error(f"Error writing to InfluxDB for {db_name}: {e}", exc_info=True)
 
 
 # ----------- PLC Analyzer Class ----------- #
@@ -243,7 +205,7 @@ class PLCAnalyzer:
     def export_extracted_values_to_file(self, extracted_values, config, timestamp, export_dir="dbs-dumps"):
         """Appends extracted values for a specific DB to a combined file."""
         os.makedirs(export_dir, exist_ok=True)
-        output_file = f"{export_dir}/DBs_extracted_values.txt"
+        output_file = f"{export_dir}/DBs_extracted_bulk_values.txt"
         db_number = config.get("db_number")
         db_name = config.get("data_block_name", f"DB{db_number}")
 
@@ -260,9 +222,28 @@ class PLCAnalyzer:
             if not token:
                 raise ValueError("INFLUXDB_TOKEN is not set.")
             
-            client = influxdb_client.InfluxDBClient(url="http://localhost:8086", token=token, org="plc-org")
+            #here insert the values to InfluxDB function
+            #bucket = "my-bucket"
+            #org = "my-org"
+            
             insert_values_to_influxdb(
-                extracted_values, config, influx_client=client, bucket="plc-data", org="plc-org"
+                extracted_values=extracted_values,
+                config=config,
+                timestamp=datetime.utcnow(), # Pass the datetime object
+                db_number=db_number,
+                influx_client=influx_client,
+                #bucket=bucket,
+                #org=org
+            )
+
+            #here insert the values to SQL Server function
+            
+            insert_values_to_sql_server(
+                extracted_values=extracted_values,
+                config=config,
+                timestamp=datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S"), # Convert string timestamp back to datetime
+                db_number=db_number,
+                sql_connection=sql_connection
             )
 
         except Exception as e:
@@ -302,7 +283,10 @@ def main():
     finally:
         if analyzer and analyzer.client.get_connected():
             analyzer.client.disconnect()
-            print("🔌 PLC Client disconnected.")
+            print("🔌 Disconnected from PLC.")
+        if sql_connection:
+            sql_connection.close()
+            print("🔌 SQL Server connection closed.")
         print("✅ Program terminated.")
 
 
