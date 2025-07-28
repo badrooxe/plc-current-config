@@ -1,63 +1,101 @@
-# sql_server_insert.py
-
-import logging
 import pyodbc
+import time
+from typing import Dict
 
-def insert_values_to_sql_server(extracted_values, config, timestamp, db_number, sql_connection):
-    """
-    Inserts a batch of extracted PLC values into a SQL Server table.
+# --------- Configuration ---------
+SQL_SERVER = 'localhost'             # Change to your SQL Server instance
+SQL_USER = 'sa'                      # SQL Server login
+SQL_PASSWORD = 'YourStrong!Passw0rd' # Update accordingly
+DATABASE_NAME = 'LiveDataDB'
+TABLE_NAME = 'LiveReadings'
 
-    Args:
-        extracted_values (dict): The data extracted from the PLC.
-        config (dict): The configuration for the current DB.
-        timestamp (datetime): The timestamp of the data extraction.
-        db_number (int): The number of the data block.
-        sql_connection (pyodbc.Connection): An active connection to the SQL Server database.
-    """
-    db_name = config.get("data_block_name", f"DB{db_number}")
-    
-    # Prepare a list of records for bulk insertion
-    records_to_insert = []
-    for offset_str, data in extracted_values.items():
-        val = data.get("value")
-        if val is None:
-            continue
-        
-        # This tuple's order must match the columns in the INSERT statement below
-        record = (
-            timestamp,
-            db_name,
-            data.get("symbol", f"Offset_{offset_str}"),
-            data.get("description", ""),
-            str(val),  # Convert all values to string to fit in an NVARCHAR column
-            data.get("unit", "")
-        )
-        records_to_insert.append(record)
+def PLC_to_SQL_Data(
+# --------- Connect to SQL Server Master ---------
+def get_master_connection():
+    conn_str = (
+        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"SERVER={SQL_SERVER};"
+        f"UID={SQL_USER};"
+        f"PWD={SQL_PASSWORD};"
+        f"DATABASE=master"
+    )
+    return pyodbc.connect(conn_str, autocommit=True)
 
-    if not records_to_insert:
-        print(f"⚠️  No records to write for {db_name} to SQL Server.")
-        return
+# --------- Create New Database if Not Exists ---------
+def create_database_if_needed():
+    conn = get_master_connection()
+    cursor = conn.cursor()
+    cursor.execute(f"""
+        IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'{DATABASE_NAME}')
+        BEGIN
+            CREATE DATABASE [{DATABASE_NAME}]
+        END
+    """)
+    cursor.close()
+    conn.close()
 
-    # The SQL query for inserting data. 
-    # Assumes a table named 'PLC_Data_Logs' exists.
-    sql = """
-    INSERT INTO PLC_Data_Logs 
-    (LogTimestamp, DBName, Symbol, Description, Value, Unit) 
-    VALUES (?, ?, ?, ?, ?, ?);
-    """
-    
-    cursor = None
-    try:
-        cursor = sql_connection.cursor()
-        # Use executemany for an efficient bulk insert
-        cursor.executemany(sql, records_to_insert)
-        sql_connection.commit()
-        print(f"✅ Wrote {len(records_to_insert)} records for {db_name} to SQL Server.")
-    except pyodbc.Error as ex:
-        sqlstate = ex.args[0]
-        logging.error(f"❌ Error writing to SQL Server for {db_name}. SQLSTATE: {sqlstate}. Error: {ex}")
-    except Exception as e:
-        logging.error(f"❌ An unexpected error occurred during SQL Server insertion for {db_name}: {e}")
-    finally:
-        if cursor:
-            cursor.close()
+# --------- Connect to New Database ---------
+def get_database_connection():
+    conn_str = (
+        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"SERVER={SQL_SERVER};"
+        f"UID={SQL_USER};"
+        f"PWD={SQL_PASSWORD};"
+        f"DATABASE={DATABASE_NAME}"
+    )
+    return pyodbc.connect(conn_str)
+
+# --------- Create Table ---------
+def create_table():
+    conn = get_database_connection()
+    cursor = conn.cursor()
+    cursor.execute(f"""
+        IF OBJECT_ID('{TABLE_NAME}', 'U') IS NULL
+        BEGIN
+            CREATE TABLE {TABLE_NAME} (
+                id INT IDENTITY(1,1) PRIMARY KEY,
+                sensor_name VARCHAR(255),
+                value FLOAT,
+                extraction_time DATETIME DEFAULT GETDATE()
+            )
+        END
+    """)
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+# --------- Insert Row ---------
+def insert_data(sensor_name: str, value: float, extraction_time: str = None):
+    conn = get_database_connection()
+    cursor = conn.cursor()
+    if extraction_time:
+        cursor.execute(f"""
+            INSERT INTO {TABLE_NAME} (sensor_name, value, extraction_time)
+            VALUES (?, ?, ?)
+        """, (sensor_name, value, extraction_time))
+    else:
+        cursor.execute(f"""
+            INSERT INTO {TABLE_NAME} (sensor_name, value)
+            VALUES (?, ?)
+        """, (sensor_name, value))
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+# --------- Simulated Real-Time Loop ---------
+def real_time_feed():
+    data_stream = [
+        {"sensor_name": "temp_sensor", "value": 22.5},
+        {"sensor_name": "load_sensor", "value": 64.8},
+        {"sensor_name": "temp_sensor", "value": 23.1}
+    ]
+    for data in data_stream:
+        insert_data(**data)
+        print(f"Inserted: {data}")
+        time.sleep(1)  # Simulate 1-second real-time interval
+
+# # --------- MAIN ---------
+# if __name__ == "__main__":
+#     create_database_if_needed()
+#     create_table()
+#     real_time_feed()  # Replace with your actual data source

@@ -4,8 +4,8 @@ from datetime import datetime
 
 def insert_values_to_influxdb(extracted_values, config, timestamp, db_number, influx_client):
     write_api = influx_client.write_api(write_options=SYNCHRONOUS)
-    bucket = config.get("bucket", "my-bucket")
-    org = config.get("org", "my-org")
+    bucket = "plc-data"
+    org = "plc-org"
     db_name = config.get("data_block_name", f"DB{db_number}")
     offsets_info = config.get("variables", {})
 
@@ -21,16 +21,29 @@ def insert_values_to_influxdb(extracted_values, config, timestamp, db_number, in
         val = extracted_values.get(offset, {}).get("value")
         if val is None:
             continue
+        field_name = "value"
+        if isinstance(val, bool):
+            field_name = "value_bool"
+        elif isinstance(val, int):
+            field_name = "value_int"
+        elif isinstance(val, float):
+            field_name = "value_float"
+        elif isinstance(val, str):
+            field_name = "value_str"
+        else:
+            print(f"⚠️ Unsupported type for offset {offset}: {type(val)}")
+            continue
         point = (
-            Point("plc_data")
-            .tag("db_name", db_name)
-            .tag("symbol", info.get("symbol", f"Offset_{offset}"))
-            .field("value", val)
-            .tag("offset", offset)
-            .tag("data_type", info.get("data_type", "unknown"))
-            .tag("unit", info.get("unit", ""))
+            Point("latest_plc_data")
+            # .tag("db_name", db_name)
+            # .tag("symbol", info.get("symbol", f"Offset_{offset}"))#
+            # .tag("offset", offset)
+            # .tag("data_type", info.get("data_type", "unknown"))
+            # .tag("unit", info.get("unit", ""))
             .tag("description", info.get("description", ""))
-            .time(extraction_time, WritePrecision.S)
+            # .time(extraction_time, WritePrecision.S)
+            .field("extraction_time", int(extraction_time.timestamp()))
+            .field("value", val)
         )
         points.append(point)
 

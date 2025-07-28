@@ -1,3 +1,6 @@
+import pyodbc
+import time
+from typing import Dict
 import logging
 import os
 import ctypes
@@ -12,7 +15,7 @@ from datetime import datetime
 from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 from influxdb_insert import insert_values_to_influxdb
-from sql_server_insert import insert_values_to_sql_server
+from test_sql_connection import insert_values_to_sql_server
 import pyodbc
 
 # ----------- Configuration ----------- #
@@ -22,14 +25,14 @@ SLOT = 0
 CONFIG_FILE = "DBs_configurations/dbsConfig.json"  # Using the single consolidated file
 DLL_PATH = os.path.abspath("snap7.dll")
 token = os.environ.get("INFLUXDB_TOKEN", "1BOz9P_KlFRxnVx_F-vAKLif9EKCN4atknuxDSPCnSRhA_7Um1OjZR4AIBbHOTMd1ES0xs1uV05NbrbwG-pRsw==")
-influx_client = InfluxDBClient(url="http://localhost:8086", token=token, org="plc")
+influx_client = influxdb_client.InfluxDBClient(url="http://localhost:8086", token=token, org="plc-org")
 conn_str = (
                 r'DRIVER={ODBC Driver 17 for SQL Server};'
-                r'SERVER=YOUR_SERVER_NAME;' # e.g., 'localhost' or 'SERVER\SQLEXPRESS'
-                r'DATABASE=YOUR_DATABASE_NAME;'
+                r'SERVER=localhost;' # e.g., 'localhost' or 'SERVER\SQLEXPRESS'
+                r'DATABASE=PLC_Data_Logs;'
                 r'Trusted_Connection=yes;'
             )
-sql_connection = pyodbc.connect(conn_str)
+#sql_connection = pyodbc.connect(conn_str)
 
 
 
@@ -163,8 +166,8 @@ class PLCAnalyzer:
         
         for offset_str in sorted_offsets:
             info = offsets_info[offset_str]
-            symbol = info.get("symbol", "Unknown Symbol")
-            data_type = info.get("data_type", "Unknown")
+            symbol = info.get("symbol", "null")
+            data_type = info.get("data_type", "null")
             byte_offset = int(float(offset_str))
 
             try:
@@ -232,18 +235,13 @@ class PLCAnalyzer:
                 timestamp=datetime.utcnow(), # Pass the datetime object
                 db_number=db_number,
                 influx_client=influx_client,
-                #bucket=bucket,
-                #org=org
             )
 
             #here insert the values to SQL Server function
-            
             insert_values_to_sql_server(
                 extracted_values=extracted_values,
                 config=config,
-                timestamp=datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S"), # Convert string timestamp back to datetime
-                db_number=db_number,
-                sql_connection=sql_connection
+                timestamp=datetime.utcnow()
             )
 
         except Exception as e:
@@ -274,7 +272,7 @@ def main():
 
             print(f"\n--- Data Extraction Cycle Completed --- {timestamp} ---")
             print("⏳ Waiting 1 second before next cycle...")
-            time.sleep(1)
+            time.sleep(0.001)
 
     except KeyboardInterrupt:
         print("\n⏹️  Stopping data extraction program.")
@@ -284,10 +282,10 @@ def main():
         if analyzer and analyzer.client.get_connected():
             analyzer.client.disconnect()
             print("🔌 Disconnected from PLC.")
-        if sql_connection:
-            sql_connection.close()
-            print("🔌 SQL Server connection closed.")
-        print("✅ Program terminated.")
+        # if sql_connection:
+        #     sql_connection.close()
+        #     print("🔌 SQL Server connection closed.")
+        # print("✅ Program terminated.")
 
 
 if __name__ == "__main__":
